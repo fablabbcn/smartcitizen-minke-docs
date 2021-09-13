@@ -1,7 +1,7 @@
 site_name: MINKE Sensors Documentation
 site_description: MINKE Documentation
 site_author: Smart Citizen Team
-site_url: https://docs.minke.eu/
+site_url: https://fablabbcn.github.io/smartcitizen-minke-docs/
 repo_name: smartcitizen-minke-docs
 repo_url: https://github.com/fablabbcn/smartcitizen-minke-docs
 
@@ -73,7 +73,7 @@ extra:
       link: 'https://www.slideshare.net/MinkeProject'
   project: 'Smart Citizen as part of the MINKE project has received funding from the European Community’s H2020 Programme under Grant Agreement No. 101008724.'
   footer_logo: '/assets/images/eu-flag.png'
-  license: 'CC Attribution-NonCommercial-ShareAlike 4.0 International'
+  license: 'GNU Free Documentation License 1.3'
 
 markdown_extensions:
   - admonition
