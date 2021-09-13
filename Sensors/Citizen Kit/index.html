@@ -1,0 +1,1717 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="MINKE Documentation">
+      
+      
+        <link rel="canonical" href="https://docs.minke.eu/Sensors/Citizen%20Kit/">
+      
+      
+        <meta name="author" content="Smart Citizen Team">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-5.5.11">
+    
+    
+      
+        <title>Citizen Kit - MINKE Sensors Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.860688db.min.css">
+      
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#citizen-kit" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="https://docs.minke.eu/" title="MINKE Sensors Documentation" class="md-header-nav__button md-logo" aria-label="MINKE Sensors Documentation">
+      
+  <img src="../../assets/images/MINKE-logo-small.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            MINKE Sensors Documentation
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Citizen Kit
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/fablabbcn/smartcitizen-minke-docs/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    smartcitizen-minke-docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+          
+
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../.." class="md-tabs__link md-tabs__link--active">
+          Main
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../Guides/" class="md-tabs__link">
+          Guides
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../About/about/" class="md-tabs__link">
+          About
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://docs.minke.eu/" title="MINKE Sensors Documentation" class="md-nav__button md-logo" aria-label="MINKE Sensors Documentation">
+      
+  <img src="../../assets/images/MINKE-logo-small.png" alt="logo">
+
+    </a>
+    MINKE Sensors Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/fablabbcn/smartcitizen-minke-docs/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    smartcitizen-minke-docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" checked>
+    
+    <label class="md-nav__link" for="nav-1">
+      Main
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Main" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        <span class="md-nav__icon md-icon"></span>
+        Main
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Welcome!" class="md-nav__link">
+      Welcome!
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-2" type="checkbox" id="nav-1-2" checked>
+    
+    <label class="md-nav__link" for="nav-1-2">
+      Sensors
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Sensors" data-md-level="2">
+      <label class="md-nav__title" for="nav-1-2">
+        <span class="md-nav__icon md-icon"></span>
+        Sensors
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../" title="Index" class="md-nav__link">
+      Index
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Citizen Kit
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="Citizen Kit" class="md-nav__link md-nav__link--active">
+      Citizen Kit
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-it" class="md-nav__link">
+    What is it?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#measurements" class="md-nav__link">
+    Measurements
+  </a>
+  
+    <nav class="md-nav" aria-label="Measurements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sck-21" class="md-nav__link">
+    SCK 2.1
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation-instructions" class="md-nav__link">
+    Installation instructions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#power-management" class="md-nav__link">
+    Power management
+  </a>
+  
+    <nav class="md-nav" aria-label="Power management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#battery-duration" class="md-nav__link">
+    Battery duration
+  </a>
+  
+    <nav class="md-nav" aria-label="Battery duration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#battery-calculator" class="md-nav__link">
+    Battery calculator
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#battery-charging" class="md-nav__link">
+    Battery charging
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#power-supply" class="md-nav__link">
+    Power Supply
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-feedback" class="md-nav__link">
+    User feedback
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-interfaces" class="md-nav__link">
+    User interfaces
+  </a>
+  
+    <nav class="md-nav" aria-label="User interfaces">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-button" class="md-nav__link">
+    The button
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operation-modes" class="md-nav__link">
+    Operation modes
+  </a>
+  
+    <nav class="md-nav" aria-label="Operation modes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setup-mode" class="md-nav__link">
+      Setup mode
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wi-fi-mode" class="md-nav__link">
+      Wi-Fi mode
+  </a>
+  
+    <nav class="md-nav" aria-label="  Wi-Fi mode">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#flash-memory" class="md-nav__link">
+    Flash memory
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sd-card-mode-offline" class="md-nav__link">
+      SD card mode (offline)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#especial-status" class="md-nav__link">
+    Especial status
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-updates" class="md-nav__link">
+    Software Updates
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Citizen%20Air%20Station/" title="Citizen Air Station" class="md-nav__link">
+      Citizen Air Station
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Citizen%20Water%20Station/" title="Citizen Water Station" class="md-nav__link">
+      Citizen Water Station
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-3" type="checkbox" id="nav-1-3">
+    
+    <label class="md-nav__link" for="nav-1-3">
+      Data
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Data" data-md-level="2">
+      <label class="md-nav__title" for="nav-1-3">
+        <span class="md-nav__icon md-icon"></span>
+        Data
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Data/Sensor%20Platform/" title="Sensor Platform" class="md-nav__link">
+      Sensor Platform
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Data/Data%20Analysis/" title="Data Analysis" class="md-nav__link">
+      Data Analysis
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../_FAQ/" title="FAQ" class="md-nav__link">
+      FAQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Troubleshooting/" title="Troubleshooting" class="md-nav__link">
+      Troubleshooting
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Guides
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Guides" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        Guides
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Guides/" title="Main" class="md-nav__link">
+      Main
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2">
+    
+    <label class="md-nav__link" for="nav-2-2">
+      Getting started
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Getting started" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-2">
+        <span class="md-nav__icon md-icon"></span>
+        Getting started
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Guides/getting%20started/Onboarding%20Sensors/" title="Onboarding Sensors" class="md-nav__link">
+      Onboarding Sensors
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Guides/getting%20started/Downloading%20the%20Data/" title="Downloading platform data" class="md-nav__link">
+      Downloading platform data
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Guides/getting%20started/Uploading%20SD%20Card%20Data/" title="Uploading SD-card data" class="md-nav__link">
+      Uploading SD-card data
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Guides/getting%20started/Updating%20the%20Wi-Fi/" title="Updating the Wi-Fi" class="md-nav__link">
+      Updating the Wi-Fi
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Guides/getting%20started/Using%20the%20Shell/" title="Using the Shell" class="md-nav__link">
+      Using the Shell
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Guides/getting%20started/Getting%20firmware%20information/" title="Getting firmware information" class="md-nav__link">
+      Getting firmware information
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Guides/getting%20started/Debugging%20your%20sensors/" title="Debugging your sensors" class="md-nav__link">
+      Debugging your sensors
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3">
+    
+    <label class="md-nav__link" for="nav-2-3">
+      Calibration
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Calibration" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-3">
+        <span class="md-nav__icon md-icon"></span>
+        Calibration
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Guides/calibration/Water%20sensors/" title="Water sensors" class="md-nav__link">
+      Water sensors
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-4" type="checkbox" id="nav-2-4">
+    
+    <label class="md-nav__link" for="nav-2-4">
+      Deploying sensors
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Deploying sensors" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-4">
+        <span class="md-nav__icon md-icon"></span>
+        Deploying sensors
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Guides/deployments/Citizen%20Kit/" title="Citizen Kit" class="md-nav__link">
+      Citizen Kit
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Guides/deployments/Citizen%20Air%20Station/" title="Citizen Air Station" class="md-nav__link">
+      Citizen Air Station
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Guides/deployments/Citizen%20Water%20Station/" title="Citizen Water Station" class="md-nav__link">
+      Citizen Water Station
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-5" type="checkbox" id="nav-2-5">
+    
+    <label class="md-nav__link" for="nav-2-5">
+      Other components
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Other components" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-5">
+        <span class="md-nav__icon md-icon"></span>
+        Other components
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Guides/deployments/Installing%20Connectivity%20Units/" title="Connectivity Units" class="md-nav__link">
+      Connectivity Units
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Guides/deployments/Using%20the%20power%20supply/" title="Power Supply" class="md-nav__link">
+      Power Supply
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Guides/deployments/Installing%20solar%20panel/" title="Solar Panel" class="md-nav__link">
+      Solar Panel
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      About
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="About" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        About
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../About/about/" title="About" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../About/open%20calls/" title="Open Calls" class="md-nav__link">
+      Open Calls
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-it" class="md-nav__link">
+    What is it?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#measurements" class="md-nav__link">
+    Measurements
+  </a>
+  
+    <nav class="md-nav" aria-label="Measurements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sck-21" class="md-nav__link">
+    SCK 2.1
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation-instructions" class="md-nav__link">
+    Installation instructions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#power-management" class="md-nav__link">
+    Power management
+  </a>
+  
+    <nav class="md-nav" aria-label="Power management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#battery-duration" class="md-nav__link">
+    Battery duration
+  </a>
+  
+    <nav class="md-nav" aria-label="Battery duration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#battery-calculator" class="md-nav__link">
+    Battery calculator
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#battery-charging" class="md-nav__link">
+    Battery charging
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#power-supply" class="md-nav__link">
+    Power Supply
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-feedback" class="md-nav__link">
+    User feedback
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-interfaces" class="md-nav__link">
+    User interfaces
+  </a>
+  
+    <nav class="md-nav" aria-label="User interfaces">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-button" class="md-nav__link">
+    The button
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operation-modes" class="md-nav__link">
+    Operation modes
+  </a>
+  
+    <nav class="md-nav" aria-label="Operation modes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setup-mode" class="md-nav__link">
+      Setup mode
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wi-fi-mode" class="md-nav__link">
+      Wi-Fi mode
+  </a>
+  
+    <nav class="md-nav" aria-label="  Wi-Fi mode">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#flash-memory" class="md-nav__link">
+    Flash memory
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sd-card-mode-offline" class="md-nav__link">
+      SD card mode (offline)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#especial-status" class="md-nav__link">
+    Especial status
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-updates" class="md-nav__link">
+    Software Updates
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/fablabbcn/smartcitizen-minke-docs/edit/master/docs/Sensors/Citizen Kit.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  
+                
+                
+                <h1 id="citizen-kit">Citizen Kit<a class="headerlink" href="#citizen-kit" title="Permanent link">&para;</a></h1>
+<h2 id="what-is-it">What is it?<a class="headerlink" href="#what-is-it" title="Permanent link">&para;</a></h2>
+<p>The Citizen Kit is the core of a complete set of <strong>modular hardware components</strong> aiming to provide tools for <strong>environmental monitoring</strong>, ranging from <strong>citizen science</strong> and <strong>educational activities</strong> to more <strong>advanced scientific research</strong>.</p>
+<p><a data-flickr-embed="true" title="SCK 2.1 All parts"><img alt="" src="https://live.staticflickr.com/65535/47950912168_fcf8fa398c_h.jpg" /></a></p>
+<p>The system is designed in a extendable way, with a central data logger (the <a href="https://docs.smartcitizen.me/Components/boards/Data Board">Data Board</a>) with network connectivity to which the different components are branched. The system is based on the principle of reproducibility, also integrating non-hardware components such as a dedicated <a href="/Data/Sensor Platform">Storage platform</a> and a <a href="/Data/Data Analysis">Sensor analysis framework</a>.</p>
+<p><img alt="" src="https://i.imgur.com/i2qzNVl.jpg" /></p>
+<p>On top of that, the system is meant to serve as a <strong>base solution for more complex settings</strong>, not only related with air quality monitoring. For that purpose, in addition to the <a href="https://docs.smartcitizen.me/Components/boards/Urban Board">Urban Board</a>, the system also provides off-the-shelf support for a wide variety of third party sensors, using the expansion bus as a common port.</p>
+<div class="admonition info">
+<p class="admonition-title">The sensors</p>
+<p>Have a look a the supported sensors in the <a href="https://github.com/fablabbcn/smartcitizen-kit-21/blob/master/lib/Sensors/Sensors.h">Firmware</a>!</p>
+</div>
+<h2 id="measurements"><img alt="👂" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f442.svg" title=":ear:" /> Measurements<a class="headerlink" href="#measurements" title="Permanent link">&para;</a></h2>
+<p>All the Smart Citizen Kit new sensors generation measure <strong>at least</strong> air temperature, relative humidity, noise level, ambient light, barometric pressure and particulate matter (PM).</p>
+<h3 id="sck-21">SCK 2.1<a class="headerlink" href="#sck-21" title="Permanent link">&para;</a></h3>
+<p><img alt="" src="https://i.imgur.com/4UEoDoW.png" /></p>
+<p>Here is the table summarising the sensors:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Measurement</th>
+<th align="center">Units</th>
+<th align="center">Sensors</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Air temperature</td>
+<td align="center">ºC</td>
+<td align="center">Sensirion SHT-31</td>
+</tr>
+<tr>
+<td align="left">Relative Humidity</td>
+<td align="center">% REL</td>
+<td align="center">Sensirion SHT-31</td>
+</tr>
+<tr>
+<td align="left">Noise level</td>
+<td align="center">dBA</td>
+<td align="center">Invensense ICS-434342</td>
+</tr>
+<tr>
+<td align="left">Ambient light</td>
+<td align="center">Lux</td>
+<td align="center">Rohm BH1721FVC</td>
+</tr>
+<tr>
+<td align="left">Barometric pressure</td>
+<td align="center">Pa</td>
+<td align="center">NXP MPL3115A26</td>
+</tr>
+<tr>
+<td align="left">Equivalent Carbon Dioxide</td>
+<td align="center">ppm</td>
+<td align="center">AMS CCS811</td>
+</tr>
+<tr>
+<td align="left">Volatile Organic Compounds</td>
+<td align="center">ppb</td>
+<td align="center">AMS CCS811</td>
+</tr>
+<tr>
+<td align="left">Particulate Matter PM 1 / 2.5 / 10</td>
+<td align="center">µg/m3</td>
+<td align="center">Planttower PMS 5003</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Sensor performance</p>
+<p>Make sure you visit the <a href="https://docs.smartcitizen.me/Components/sensors/performance/">sensor performance page</a> for further information about the sensors.</p>
+</div>
+<h2 id="installation-instructions"><img alt="📓" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f4d3.svg" title=":notebook:" /> Installation instructions<a class="headerlink" href="#installation-instructions" title="Permanent link">&para;</a></h2>
+<p>The sensor comes mounted and almost ready to be used:</p>
+<p><img alt="" src="https://live.staticflickr.com/65535/47950999751_13e6e00f49_b.jpg" /></p>
+<p>The first step is to connect the battery. The kit will light in red (configuration mode) and we will be able to configure it by following the instructions at <a href="https://start.smartcitizen.me">start.smartcitizen.me</a>.</p>
+<p><img alt="" src="https://i.imgur.com/NhSNXJ8.png" /></p>
+<div class="admonition info">
+<p class="admonition-title">Detailed guide</p>
+<p>Have a look <a href="/Guides/getting started/Onboarding Sensors/">at this guide</a> for a step-by-step installation.</p>
+</div>
+<p>After the configuration process, data will be available on the SmartCitizen platform. You can explore the data there or download it using the <code>CSV Download</code> option (you can check a more detailed guide <a href="/Guides/getting started/Downloading the Data/">here</a>)</p>
+<p><img alt="" src="https://i.imgur.com/5NlWx6O.jpg" /></p>
+<h2 id="power-management"><img alt="🔋" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f50b.svg" title=":battery:" /> Power management<a class="headerlink" href="#power-management" title="Permanent link">&para;</a></h2>
+<h3 id="battery-duration">Battery duration<a class="headerlink" href="#battery-duration" title="Permanent link">&para;</a></h3>
+<p>The SCK comes with a 2000mAh LiPo battery. The battery is meant to be a complete power option for short-term measurements and a backup solution when the kit it is used for long periods. For long exposures, we recommend to permanently connect the USB to kit. The battery duration is dependent on which sensors are enabled or disabled.</p>
+<p>You will note that the kit <em>turns itself off</em> while operating on battery. Actually, this is what we call <code>sleep-mode</code>, an operation mode implemented to reduce consumption while on battery operation. Check the <a href="#operation-modes">operation modes section</a> below.</p>
+<div class="admonition info">
+<p class="admonition-title">PM Sensor management</p>
+<p>If you want to save battery, the <a href="/Guides/getting started/Using the Shell/#set-recording-and-publication-intervals">basic interval</a> for the sensors shouldn't be below 30s. This is because the minimum stabilisation time the PM sensor requires to take stable readings is around 15-20s. For this reason, <strong>the minimum interval available without turning off the PM sensor between readings is 30s</strong>. If a lower interval is required, the PM sensor will be permanently ON and battery will drain faster.</p>
+</div>
+<h4 id="battery-calculator">Battery calculator<a class="headerlink" href="#battery-calculator" title="Permanent link">&para;</a></h4>
+<p>You can use the battery calculator to estimate how much your battery would last.</p>
+<div class="admonition tip">
+<p class="admonition-title">SCK Battery Calculator</p>
+<p><strong>WIP!</strong></p>
+<p><iframe id="github-iframe" src="" width="100%" height="40%" frameborder="0" scrolling="no" style="min-height: 570px;"></iframe></p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">What's the SCK's Shell?<p>Learn how to use the powerful SCK Shell. Check the <a href="/Guides/getting%20started/Using%20the%20Shell/">guide</a>.</p>
+</p>
+</div>
+<script>
+    fetch('https://api.github.com/repos/fablabbcn/smartcitizen-tools/contents/calculator.htm')
+        .then(function(response) {
+            return response.json();
+        }).then(function(data) {
+            var iframe = document.getElementById('github-iframe');
+            iframe.src = 'data:text/html;base64,' + encodeURIComponent(data['content']);
+        });
+</script>
+
+<h3 id="battery-charging">Battery charging<a class="headerlink" href="#battery-charging" title="Permanent link">&para;</a></h3>
+<p>The SCK has a micro USB port and can be charged like any smartphone or tablet using a dedicated adapter or a computer USB port.</p>
+<p>We recommend using an external USB power adaptor, instead of a computer USB port, for quicker charging. Autonomy can be extended by using a Power Bank, or a <a href="https://docs.smartcitizen.me/Components/Solar Panel/">5V PV Panel</a>.</p>
+<h3 id="power-supply">Power Supply<a class="headerlink" href="#power-supply" title="Permanent link">&para;</a></h3>
+<p>The SCK needs 5V input via the micro USB connector. A normal 5V power charger can be used, although for outdoor developments we recommend using a waterproof power supply. Find more info in the <a href="https://docs.smartcitizen.me/Components/boards/Power Supply/">power supply section</a>.</p>
+<h3 id="user-feedback">User feedback<a class="headerlink" href="#user-feedback" title="Permanent link">&para;</a></h3>
+<p>The LED serves as an indication of the battery status. If the LED is flashing orange <span class="led small orange"> </span> it indicates that the battery must be charged. The battery takes about 4 hours to fully charge. When the battery is fully charged, the LED will change from orange to green <span class="led small green"> </span>.</p>
+<p><img alt="" src="https://i.imgur.com/ABSXX4w.jpg" style="max-width:400px !important" /></p>
+<p><em>Remember that in addition to these colors you will have the state color of the kit: configuration, network and sd.</em></p>
+<div class="admonition info">
+<p class="admonition-title">More details</p>
+<p>Find more details under the <a href="https://docs.smartcitizen.me/Components/boards/Data Board/#power-management">data board section</a></p>
+</div>
+<h2 id="user-interfaces"><img alt="🚩" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f6a9.svg" title=":triangular_flag_on_post:" /> User interfaces<a class="headerlink" href="#user-interfaces" title="Permanent link">&para;</a></h2>
+<p>The data board features a set of user interfaces which provide feedback to the user, as well as two buttons with different functionalities. The main RGB LED provides general feedback of the data board status. Additionally, two buttons are provided for user action. A hardware reset button, which forces a power cut to the board, and a power button, used to change the device's mode, turn on and off the device, and to perform a factory reset. You can see both buttons below:</p>
+<p><img alt="" src="https://i.imgur.com/AmlA8e2.png" /></p>
+<h3 id="the-button">The button<a class="headerlink" href="#the-button" title="Permanent link">&para;</a></h3>
+<p>The main button interaction is detailed below:</p>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Button action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ON</strong></td>
+<td>Push the button</td>
+</tr>
+<tr>
+<td><strong>OFF</strong></td>
+<td>Push the button for 5 seconds</td>
+</tr>
+<tr>
+<td><strong>CHANGE MODE</strong></td>
+<td>Push the button multiple times to choose: <em>Setup</em> <span class="led small red"></span>  <em>Wi-Fi</em> <span class="led small blue"></span> <em>Pink</em> <span class="led small pink"></span></td>
+</tr>
+<tr>
+<td><strong>FACTORY RESET</strong></td>
+<td>Push the button 15 seconds for a full reset</td>
+</tr>
+</tbody>
+</table>
+<p>An example is shown below:</p>
+<p><img alt="" src="https://live.staticflickr.com/65535/48439505516_d210ce2c8a_h.jpg" /></p>
+<div class="admonition info">
+<p class="admonition-title">Troubleshooting</p>
+<p>Have a look at the <a href="/Troubleshooting">troubleshoothing section</a> to check how you can use the buttons in case of problems with your SCK!</p>
+</div>
+<h3 id="operation-modes">Operation modes<a class="headerlink" href="#operation-modes" title="Permanent link">&para;</a></h3>
+<div class="admonition warning">
+<p class="admonition-title">New WARNING feature</p>
+<p>After release <code>0.9.8</code>, a new warning feature was introduced. In an overall sense, this is the interpretation of each state:</p>
+<ul>
+<li><strong>Normal</strong>: no problem! <strong>Slow fading in the LED.</strong></li>
+<li><strong>Warning</strong>: can take readings, but can't save them in the sdcard or can't send them to the platform (problem with network). Data is stored in the onboard Flash memory and will be saved after the problem is solved - either network comes back or the sdcard is OK. <strong>Partial blink in LED.</strong></li>
+<li><strong>Error</strong>: can't take readings. Either there is "no time", or there is a big problem that prevents data to be read. <strong>Full fast blink in LED.</strong></li>
+</ul>
+<p><img alt="💡" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f4a1.svg" title=":bulb:" /> Remember, you can check your SCK firmware version quickly following this <a href="/Guides/getting%20started/Getting%20firmware%20information/">guide</a>.</p>
+</div>
+<h4 id="setup-mode"><span class="led small red"> </span> Setup mode<a class="headerlink" href="#setup-mode" title="Permanent link">&para;</a></h4>
+<p>In this mode, the Kit is ready to be configured in <strong>network</strong> mode or <strong>SD card</strong> in <a href="https://start.smartcitizen.me/">start.smartcitizen.me</a>.</p>
+<table>
+<thead>
+<tr>
+<th>LED color</th>
+<th>Kit status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="led setup"></span></td>
+<td><img alt="👍" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f44d.svg" title=":thumbsup:" /> Ready to be setup</td>
+</tr>
+<tr>
+<td><span class="led setup-lowbat"></span></td>
+<td><img alt="🔋" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f50b.svg" title=":battery:" /> Ready to be setup but battery is low, charge the Kit</td>
+</tr>
+<tr>
+<td><span class="led setup-chargebat"></span></td>
+<td><img alt="🔋" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f50b.svg" title=":battery:" /> Ready to be setup, battery charging</td>
+</tr>
+<tr>
+<td><span class="led setup-fullbat"></span></td>
+<td><img alt="🔋" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f50b.svg" title=":battery:" /> Ready to be setup, battery charged</td>
+</tr>
+</tbody>
+</table>
+<h4 id="wi-fi-mode"><span class="led small blue"> </span> Wi-Fi mode<a class="headerlink" href="#wi-fi-mode" title="Permanent link">&para;</a></h4>
+<p>This is the standard mode for a network that requires a Wi-Fi connection. In this way, the device will publish the data every minute on the <a href="https://smartcitizen.me">smartcitizen.me</a> platform. If there is an inserted micro SD card, the data will be stored in it as well.</p>
+<table>
+<thead>
+<tr>
+<th>LED color</th>
+<th>Kit status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="led net"></span></td>
+<td><img alt="👍" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f44d.svg" title=":thumbsup:" /> Collecting data online</td>
+</tr>
+<tr>
+<td><span class="led net-warning"></span></td>
+<td><img alt="⚠️" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/26a0.svg" title=":warning:" /> Warning. Collecting data but not sending it online</td>
+</tr>
+<tr>
+<td><span class="led net-error"></span></td>
+<td>❌ Error. Not collecting data</td>
+</tr>
+<tr>
+<td><span class="led net-lowbat"></span></td>
+<td><img alt="🔋" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f50b.svg" title=":battery:" /> Collecting data online but battery is low, charge the Kit</td>
+</tr>
+<tr>
+<td><span class="led net-chargebat"></span></td>
+<td><img alt="🔋" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f50b.svg" title=":battery:" /> Collecting data online, battery charging</td>
+</tr>
+<tr>
+<td><span class="led net-fullbat"></span></td>
+<td><img alt="🔋" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f50b.svg" title=":battery:" /> Collecting data online, battery charged</td>
+</tr>
+<tr>
+<td><span class="led net-sleep"></span></td>
+<td><img alt="🛏️" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f6cf.svg" title=":bed:" /> Sleep-mode. Collecting data online and saving battery</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><img alt="✅" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/2705.svg" title=":white_check_mark:" /> The kit supports Wi-Fi WEP, WPA/WPA2 and open networks that are common networks in domestic environments and small businesses.</p>
+<p><img alt="❎" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/274e.svg" title=":negative_squared_cross_mark:" /> But, it <strong>does not</strong> support WPA/WPA2 Enterprise networks such as EDUROAM or networks with captive portals such as those found in Airports and Hotels</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Error in network mode</p>
+<p>If you configure the SCK with a network that is not visible at the moment of configuring it, it will raise an error and it will not take data.</p>
+</div>
+<h5 id="flash-memory">Flash memory<a class="headerlink" href="#flash-memory" title="Permanent link">&para;</a></h5>
+<p>After firmware version <code>0.9.8</code>, a new flash memory feature was implemented. That changed completely the arrangement of sensor readings vs publication/storage, and how errors are handled. From there on, data is always stored in flash memory before stored in <strong>SD card</strong> or published over <strong>Wi-Fi</strong>. That means that data can be always recovered if there is a problem with the SD card or the connection to the Internet fails, i.e. if we lose connection, the SCK will still store data and publish it in batch once the network is back!</p>
+<div class="admonition tip">
+<p class="admonition-title">Check and update your Kit software version</p>
+<p><img alt="💡" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f4a1.svg" title=":bulb:" /> Remember, you can check your SCK firmware version quickly following this <a href="/Guides/getting%20started/Getting%20firmware%20information/">guide</a>. Later, learn <a href="https://docs.smartcitizen.me/Guides/firmware/Update%20the%20firmware/">here</a> how to update it.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Flash chip and sizes</p>
+<p>The flash chip <a href="https://www.cypress.com/file/316661/download"><strong>S25FL064L</strong></a> that we use is an 8 MB SPI flash nonvolatile memory. The minimum erasable unit is a 4kb sector, the full memory contains 2,048 sectors with a total of 8,388,608 bytes or 8 MB.</p>
+<p>A normal reading group with the default urban board hardware installed is composed of 11 readings, hence we expect each reading to take 7 bytes: an average of 5 bytes for the reading itself plus 2 overhead bytes for <code>SensorType</code> and size. Each group should have a total of 77 bytes of readings, 2 bytes of size, 2 bytes of flags and 4 bytes of the time stamp. That means we can expect a normal group to be around 85 bytes. This means we can store almost 100,000 groups of readings, or <strong>around 70 days of readings with standard sensor hardware</strong>. This number can vary a little, though.</p>
+<p>About flash memory lifespan, rounding numbers we can say we have enough space to store 2 months (60 days) of readings, according to the Flash memory <a href="https://www.cypress.com/file/316661/download">datasheet</a> we have at least 100,000 erase cycles: 2 months per cycle means 200,000 months, so we can expect more than <strong>16k years!</strong>.</p>
+</div>
+<p>That can be very useful in many situations, for instance, where we cannot use permanent network connectivity, or we have intermittent electrical blackouts (standard battery required). Of course, everything has its limitations, and the flash memory follows a <em><a href="https://en.wikipedia.org/wiki/Circular_buffer">circular buffer</a></em>, which means that when the flash memory is full, it will start overwriting data no matter if it was published or not. In a normal SCK, the flash memory will last for some weeks though, but it's better to always be on the safe side and not lose any data.</p>
+<p>When the SCK loses connection, after <strong>three attempts to connect</strong>, it will enter <em>warning mode</em> (see <a href="#operation-modes">here</a>). After this, it will try again after 5 times the publication interval (by default 3'), which means, after the Internet connection is back the <strong>SCK will take a maximum of 15' to connect to it</strong> and start pushing data. The data publication is not immediate and will take some minutes. If you are in a hurry, click the user button twice (blue-red-blue mode) or reset the kit and data will start being posted right away.</p>
+<div class="admonition warning">
+<p class="admonition-title">Be careful!</p>
+<p>Having a non-permanent WiFi connection means that we can also risk entering error mode if the SCK runs out of battery because it obtains the time from the internet (or from a phone during the SD card setup process). <strong>Losing the network connection and running out of battery means the device will lose the internal clock time, and the device will stop taking readings until it has power and can connect to the internet to sync, again.</strong> </p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Debugging commands</p>
+<p>Check <a href="/Guides/getting started/Using the Shell/#accessing-the-flash-memory">this guide</a> for more debugging commands.</p>
+</div>
+<h4 id="sd-card-mode-offline"><span class="led small pink"> </span> SD card mode (offline)<a class="headerlink" href="#sd-card-mode-offline" title="Permanent link">&para;</a></h4>
+<p>If we do not have an internet connection we can use the SD mode. In this case the device will record the data on the micro SD card. Later we can read the card using a card reader. The data can be visually spaced in a spreadsheet but also published on the <a href="https://smartcitizen.me">smartcitizen.me</a> platform using the <strong>UPLOAD CSV</strong> option.</p>
+<table>
+<thead>
+<tr>
+<th>LED color</th>
+<th>Kit status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="led sd"></span></td>
+<td><img alt="👍" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f44d.svg" title=":thumbsup:" /> Collecting data offline</td>
+</tr>
+<tr>
+<td><span class="led sd-warning"></span></td>
+<td><img alt="⚠️" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/26a0.svg" title=":warning:" /> Warning. Collecting data but not storing it in sdcard</td>
+</tr>
+<tr>
+<td><span class="led sd-error"></span></td>
+<td>❌ Error. Not collecting data</td>
+</tr>
+<tr>
+<td><span class="led sd-lowbat"></span></td>
+<td><img alt="🔋" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f50b.svg" title=":battery:" /> Collecting data offline but battery is low, charge the Kit</td>
+</tr>
+<tr>
+<td><span class="led sd-chargebat"></span></td>
+<td><img alt="🔋" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f50b.svg" title=":battery:" /> Collecting data offline,  battery charging</td>
+</tr>
+<tr>
+<td><span class="led sd-fullbat"></span></td>
+<td><img alt="🔋" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f50b.svg" title=":battery:" /> Collecting data offline, battery charged</td>
+</tr>
+<tr>
+<td><span class="led sd-sleep"></span></td>
+<td><img alt="🛏️" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f6cf.svg" title=":bed:" /> Sleep-mode. Collecting data offline and saving battery</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">Guide</p>
+<p>Check the guide on how to upload the sd card data <a href="/Guides/getting started/Uploading SD Card Data/">here</a></p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Weird files?</p>
+<p>The files in the sdcard have the following naming: YYYY-MM-DD.CSV, however, you will find in the some extra files (.01, .02...) These are data files that the sensor creates once there is a reset and, to avoid corruption, it creates a new file in the sd-card, by changing the file-extension. </p>
+<p>A reset takes place every night at 3-4am with the purpose to avoid data loss because a problem. The SCK then stores the data in a file with a sequential name, and does so by changing the filename to YYYY-MM-DD.01, .02… etc depending on the amount of resets it sees during that day. You can see the data and work with it by changing the name from YYYY-MM-DD.01 to YYYY-MM-DD_01.CSV. <a href="/Guides/data/Organise your data/#pre-process-the-sd-card-data">Check the guide on how to organise your data</a> to automatise this.</p>
+</div>
+<h4 id="especial-status">Especial status<a class="headerlink" href="#especial-status" title="Permanent link">&para;</a></h4>
+<p>You will see these colors in special moments, mostly when the kit is booting or being updated.</p>
+<table>
+<thead>
+<tr>
+<th>LED color</th>
+<th>Kit status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="led busy"></span></td>
+<td><img alt="⏳" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/23f3.svg" title=":hourglass_flowing_sand:" />  Busy, please wait!</td>
+</tr>
+<tr>
+<td><span class="led firmware"></span></td>
+<td><img alt="🔧" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f527.svg" title=":wrench:" /> Software update going on!</td>
+</tr>
+<tr>
+<td><span class="led yellow"></span></td>
+<td><img alt="💻" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f4bb.svg" title=":computer:" /> Shell mode <a href="/Guides/getting started/Using the Shell/#shell-mode">more info here</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="software-updates">Software Updates<a class="headerlink" href="#software-updates" title="Permanent link">&para;</a></h2>
+<p>Sofware updates are release frequently in the <a href="https://github.com/fablabbcn/smartcitizen-kit-21">Firmware repository</a>. These updates will need to be applied periodically to the two main components of the SCK: the SAMD21 (main processor) and the ESP8266 (Wi-Fi module). Check the instructions under the <a href="https://docs.smartcitizen.me/Guides/firmware/Update the firmware/">Update the Firmware</a> section for more information.</p>
+<p><img src="https://live.staticflickr.com/65535/50976345583_1099828518_k.jpg" width="2000" height="1333" alt="Smart Citizen Kits being tested at Fab Lab Barcelona"></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+
+
+<!-- Application footer -->
+<footer class="md-footer">
+
+  <!-- Link to previous and/or next page -->
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+
+        <!-- Link to previous page -->
+        
+          <a href="../"
+              title="Index"
+              class="md-flex md-footer-nav__link md-footer-nav__link--prev"
+              rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back
+                    md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch
+                  md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Index
+              </span>
+            </div>
+          </a>
+        
+
+        <!-- Link to next page -->
+        
+          <a href="../Citizen%20Air%20Station/"
+              title="Citizen Air Station"
+              class="md-flex md-footer-nav__link md-footer-nav__link--next"
+              rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch
+                  md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Citizen Air Station
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward
+                    md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+
+  <!-- Further information -->
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+
+      <!-- Copyright and theme information -->
+      <div class="md-footer-copyright">
+        <!-- -->
+            <!-- <div class="md-footer-copyright__highlight">CC Attribution-NonCommercial-ShareAlike 4.0 International</div> -->
+        <!-- -->
+          <div class="md-footer-iscape">
+		        <img style="margin-right: 20px;" class="logo" alt="Smart Citizen as part of the MINKE project has received funding from the European Community’s H2020 Programme under Grant Agreement No. 101008724." src="/assets/images/eu-flag.png">
+            <p class="md-footer-copyright__highlight">Smart Citizen as part of the MINKE project has received funding from the European Community’s H2020 Programme under Grant Agreement No. 101008724.</p>
+          </div>
+            <p>Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+            <p><a rel="license" href="http://smartcitizen.me">Smart Citizen</a> is a project by <a rel="license" href="http://fablabbcn.org">Fab Lab Barcelona</a> at the <a rel="license" href="http://iaac.net">Institute For Advanced Architecture Of Catalonia</a>.</p>
+      </div>
+
+      <!-- Social links -->
+      
+        
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="https://twitter.com/MinkeProject" target="_blank" rel="noopener" title="twitter.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://www.linkedin.com/company/minke-project/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://www.youtube.com/channel/UCW4nzxDEUk7NRpKMAghoSDg" target="_blank" rel="noopener" title="www.youtube.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://www.slideshare.net/MinkeProject" target="_blank" rel="noopener" title="www.slideshare.net" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M187.7 153.7c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7s61.7-26 61.7-57.7c0-32-27.7-57.7-61.7-57.7zm143.4 0c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7 34.3 0 61.7-26 61.7-57.7.1-32-27.4-57.7-61.7-57.7zm156.6 90l-6 4.3V49.7c0-27.4-20.6-49.7-46-49.7H76.6c-25.4 0-46 22.3-46 49.7V248c-2-1.4-4.3-2.9-6.3-4.3-15.1-10.6-25.1 4-16 17.7 18.3 22.6 53.1 50.3 106.3 72C58.3 525.1 252 555.7 248.9 457.5c0-.7.3-56.6.3-96.6 5.1 1.1 9.4 2.3 13.7 3.1 0 39.7.3 92.8.3 93.5-3.1 98.3 190.6 67.7 134.3-124 53.1-21.7 88-49.4 106.3-72 9.1-13.8-.9-28.3-16.1-17.8zm-30.5 19.2c-68.9 37.4-128.3 31.1-160.6 29.7-23.7-.9-32.6 9.1-33.7 24.9-10.3-7.7-18.6-15.5-20.3-17.1-5.1-5.4-13.7-8-27.1-7.7-31.7 1.1-89.7 7.4-157.4-28V72.3c0-34.9 8.9-45.7 40.6-45.7h317.7c30.3 0 40.9 12.9 40.9 45.7v190.6z"/></svg>
+      </a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.df0def68.min.js"></script>
+      <script src="../../assets/javascripts/bundle.ba57d267.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ["instant", "navigation.expand", "tabs"],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.5eca75d3.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+        <script src="https://buttons.github.io/buttons.js"></script>
+      
+    
+  </body>
+</html>
