@@ -1,0 +1,107 @@
+site_name: MINKE Sensors Documentation
+site_description: MINKE Documentation
+site_author: Smart Citizen Team
+site_url: https://docs.minke.eu/
+repo_name: smartcitizen-minke-docs
+repo_url: https://github.com/fablabbcn/smartcitizen-minke-docs
+
+nav:
+  - Main:
+    - Welcome!: index.md
+    - Sensors: 
+      - Index: Sensors/index.md
+      - Citizen Kit: Sensors/Citizen Kit.md
+      - Citizen Air Station: Sensors/Citizen Air Station.md
+      - Citizen Water Station: Sensors/Citizen Water Station.md
+    - Data:
+      - Sensor Platform: Data/Sensor Platform.md
+      - Data Analysis: Data/Data Analysis.md
+    - FAQ: _FAQ.md
+    - Troubleshooting: Troubleshooting.md        
+  - Guides:
+    - Main: Guides/index.md
+    - Getting started:
+      - Onboarding Sensors: Guides/getting started/Onboarding Sensors.md
+      - Downloading platform data: Guides/getting started/Downloading the Data.md
+      - Uploading SD-card data: Guides/getting started/Uploading SD Card Data.md
+      - Updating the Wi-Fi: Guides/getting started/Updating the Wi-Fi.md
+      - Using the Shell: Guides/getting started/Using the Shell.md
+      - Getting firmware information: Guides/getting started/Getting firmware information.md
+      - Debugging your sensors: Guides/getting started/Debugging your sensors.md
+    - Calibration:
+      - Water sensors: Guides/calibration/Water sensors.md
+    - Deploying sensors:
+      - Citizen Kit: Guides/deployments/Citizen Kit.md
+      - Citizen Air Station: Guides/deployments/Citizen Air Station.md
+      - Citizen Water Station: Guides/deployments/Citizen Water Station.md
+    - Other components:    
+      - Connectivity Units: Guides/deployments/Installing Connectivity Units.md
+      - Power Supply: Guides/deployments/Using the power supply.md
+      - Solar Panel: Guides/deployments/Installing solar panel.md
+    # - Enclosures:
+    #   - Making your own enclosures: Guides/enclosures/Making your own enclosures.md
+  - About:
+    - About: About/about.md
+    - Open Calls: About/open calls.md
+
+theme:
+  name: 'material'
+  features:
+    - instant
+    - navigation.expand
+    - tabs
+  custom_dir: 'custom_theme'
+  logo: 'assets/images/MINKE-logo-small.png'
+  favicon: 'assets/images/favicon.ico'
+  feature:
+    tabs: true
+  icon:
+    repo: fontawesome/brands/git-alt
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: 'https://twitter.com/MinkeProject'
+    - icon: fontawesome/brands/linkedin
+      link: 'https://www.linkedin.com/company/minke-project/'
+    - icon: fontawesome/brands/youtube
+      link: 'https://www.youtube.com/channel/UCW4nzxDEUk7NRpKMAghoSDg'
+    - icon: fontawesome/brands/slideshare
+      link: 'https://www.slideshare.net/MinkeProject'
+  project: 'Smart Citizen as part of the MINKE project has received funding from the European Community’s H2020 Programme under Grant Agreement No. 101008724.'
+  footer_logo: '/assets/images/eu-flag.png'
+  license: 'CC Attribution-NonCommercial-ShareAlike 4.0 International'
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      base_path: 'docs'
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - attr_list
+  - pymdownx.tabbed
+  
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+  - 'https://buttons.github.io/buttons.js'
