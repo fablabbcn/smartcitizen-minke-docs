@@ -862,6 +862,8 @@
     <!-- Set from config but allow override -->
 
 
+  
+
 
 <!-- Discourse integration -->
 
@@ -870,11 +872,11 @@
   <div id="discourse-comments"></div>
 
   <script type="text/javascript">
-    DiscourseEmbed = { discourseUrl: 'https://forum.smartcitizen.me/', discourseEmbedUrl: 'https://fablabbcn.github.io/smartcitizen-minke-docs/Projects/' };
+    window.DiscourseEmbed = { discourseUrl: 'https://forum.smartcitizen.me/', topicID: '1624', discourseEmbedUrl: https://fablabbcn.github.io/smartcitizen-minke-docs/Projects/};
 
     (function() {
       var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
-      d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+      d.src = window.DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
     })();
   </script>
