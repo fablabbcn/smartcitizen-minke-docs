@@ -183,6 +183,19 @@
   
     <li class="md-tabs__item">
       
+        <a href="../../../Projects/" class="md-tabs__link">
+          Projects
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
         <a href="../../../About/about/" class="md-tabs__link">
           About
         </a>
@@ -799,11 +812,49 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
     
     <label class="md-nav__link" for="nav-3">
+      Projects
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Projects" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Projects
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Projects/" title="About this section" class="md-nav__link">
+      About this section
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
       About
       <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="About" data-md-level="1">
-      <label class="md-nav__title" for="nav-3">
+      <label class="md-nav__title" for="nav-4">
         <span class="md-nav__icon md-icon"></span>
         About
       </label>
@@ -979,10 +1030,31 @@ Image credit: <a href="https://voltaicsystems.com">Voltaic Systems</a></p>
                 
               
               
-                
+  <!-- Add custom comment system integration here -->
+  
+    <!-- Set from config but allow override -->
 
 
-              
+
+<!-- Discourse integration -->
+
+  <h2 id="__comments">Comments & Questions</h2>
+  <p class="mb-5">For more tips & tricks join our <a href = https://forum.smartcitizen.me/ target="_blank">community forums</a>! 👋</br>If you have any questions about the information on this page let us know below! 👇</p>
+  <div id="discourse-comments"></div>
+
+  <script type="text/javascript">
+    DiscourseEmbed = { discourseUrl: 'https://forum.smartcitizen.me/', discourseEmbedUrl: 'https://fablabbcn.github.io/smartcitizen-minke-docs/Guides/deployments/Installing%20solar%20panel/' };
+
+    (function() {
+      var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+      d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+    })();
+  </script>
+
+  
+
+
             </article>
           </div>
         </div>
@@ -1044,8 +1116,8 @@ Image credit: <a href="https://voltaicsystems.com">Voltaic Systems</a></p>
 
         <!-- Link to next page -->
         
-          <a href="../../../About/about/"
-              title="About"
+          <a href="../../../Projects/"
+              title="About this section"
               class="md-flex md-footer-nav__link md-footer-nav__link--next"
               rel="next">
             <div class="md-flex__cell md-flex__cell--stretch
@@ -1054,7 +1126,7 @@ Image credit: <a href="https://voltaicsystems.com">Voltaic Systems</a></p>
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                About
+                About this section
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
