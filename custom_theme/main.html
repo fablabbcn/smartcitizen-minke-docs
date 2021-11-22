@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block disqus %}
+  <!-- Add custom comment system integration here -->
+  {% if config.extra.discourse and config.extra.disqus %}
+    {% include "partials/integrations/discourse.html" %}
+  {% endif %}
+
+{% endblock %}
