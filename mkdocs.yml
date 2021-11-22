@@ -40,6 +40,8 @@ nav:
       - Solar Panel: Guides/deployments/Installing solar panel.md
     # - Enclosures:
     #   - Making your own enclosures: Guides/enclosures/Making your own enclosures.md
+  - Projects:
+    - About this section: Projects/index.md
   - About:
     - About: About/about.md
     - Open Calls: About/open calls.md
