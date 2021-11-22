@@ -10,8 +10,7 @@
   <p class="mb-5">For more tips & tricks join our <a href = {{ discourse }} target="_blank">community forums</a>! 👋</br>If you have any questions about the information on this page let us know below! 👇</p>
   <div id="discourse-comments"></div>
   <script type="text/javascript">
-    window.DiscourseEmbed = { discourseUrl: '{{ discourse }}', topicID: '{{ topicid }}', discourseEmbedUrl: '{{ page.canonical_url }}' };
-    console.log('{{ page.canonical_url }}');
+    window.DiscourseEmbed = { discourseUrl: '{{ discourse }}', discourseEmbedUrl: '{{ page.canonical_url }}' };
     (function() {
       var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
       d.src = window.DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
