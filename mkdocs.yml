@@ -75,7 +75,8 @@ extra:
       link: 'https://www.slideshare.net/MinkeProject'
   project: 'Smart Citizen as part of the MINKE project has received funding from the European Community’s H2020 Programme under Grant Agreement No. 101008724.'
   footer_logo: '/assets/images/eu-flag.png'
-  license: 'GNU Free Documentation License 1.3'
+  license: 'GNU Free Documenstation License (Version 1.3, 3 November 2008)'
+  license_link: 'https://www.gnu.org/licenses/fdl-1.3-standalone.html'
   discourse: 'https://forum.smartcitizen.me/'
   disqus: 'fake'
 
