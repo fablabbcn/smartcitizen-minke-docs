@@ -1,13 +1,14 @@
 <!-- Set from config but allow override -->
 {% set discourse = config.extra.discourse %}
-{% if page and page.meta and page.meta.topicid is number %}
-  {% set topicid = page.meta.topicid %}
+{% if page and page.meta %}
+  {% set showforum = page.meta.showforum %}
+  {% set projectname = page.meta.projectname %}
 {% endif %}
 
 <!-- Discourse integration -->
-{% if discourse and topicid %}
+{% if discourse and showforum %}
   <h2 id="__comments">Comments & Questions</h2>
-  <p class="mb-5">For more tips & tricks join our <a href = {{ discourse }} target="_blank">community forums</a>! 👋</br>If you have any questions about the information on this page let us know below! 👇</p>
+  <p class="mb-5">This is the discussion around the {{ projectname }} in our <a href = {{ discourse }} target="_blank">community forums</a>! 👋</br>Check it, and if you have any question, let the community know below! 👇</p>
   <div id="discourse-comments"></div>
   <script type="text/javascript">
     window.DiscourseEmbed = { discourseUrl: '{{ discourse }}', discourseEmbedUrl: '{{ page.canonical_url }}' };
