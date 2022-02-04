@@ -11,7 +11,7 @@ nav:
     - Sensors: 
       - Index: Sensors/index.md
       - Citizen Kit: Sensors/Citizen Kit.md
-      - Citizen Air Station: Sensors/Citizen Air Station.md
+      - Citizen Water Kit: Sensors/Citizen Water Kit.md
       - Citizen Water Station: Sensors/Citizen Water Station.md
     - Data:
       - Sensor Platform: Data/Sensor Platform.md
@@ -32,19 +32,15 @@ nav:
       - Water sensors: Guides/calibration/Water sensors.md
     - Deploying sensors:
       - Citizen Kit: Guides/deployments/Citizen Kit.md
-      - Citizen Air Station: Guides/deployments/Citizen Air Station.md
       - Citizen Water Station: Guides/deployments/Citizen Water Station.md
-    - Other components:    
-      - Connectivity Units: Guides/deployments/Installing Connectivity Units.md
       - Power Supply: Guides/deployments/Using the power supply.md
-      - Solar Panel: Guides/deployments/Installing solar panel.md
     # - Enclosures:
     #   - Making your own enclosures: Guides/enclosures/Making your own enclosures.md
   - Projects:
     - About this section: Projects/index.md
-  - About:
+    - Project Template: Projects/demo.md
+  - About: 
     - About: About/about.md
-    - Open Calls: About/open calls.md
 
 theme:
   name: 'material'
@@ -111,3 +107,5 @@ markdown_extensions:
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
   - 'https://buttons.github.io/buttons.js'
+
+  

@@ -253,7 +253,7 @@ control dissolved com r
 control dissolved com cal
 ```
 
-#### OPTION B: 2-point calibration 
+#### OPTION B: 2-point calibration
 
 Two point calibration is recommended if you require accurate readings below 1.0 mg/L. After completing the single point calibration procedure put the probe in the calibration solution.
 
