@@ -331,8 +331,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../Citizen%20Air%20Station/" title="Citizen Air Station" class="md-nav__link">
-      Citizen Air Station
+    <a href="../Citizen%20Water%20Kit/" title="Citizen Water Kit" class="md-nav__link">
+      Citizen Water Kit
     </a>
   </li>
 
@@ -725,58 +725,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Guides/deployments/Citizen%20Air%20Station/" title="Citizen Air Station" class="md-nav__link">
-      Citizen Air Station
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../../Guides/deployments/Citizen%20Water%20Station/" title="Citizen Water Station" class="md-nav__link">
       Citizen Water Station
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-5" type="checkbox" id="nav-2-5">
-    
-    <label class="md-nav__link" for="nav-2-5">
-      Other components
-      <span class="md-nav__icon md-icon"></span>
-    </label>
-    <nav class="md-nav" aria-label="Other components" data-md-level="2">
-      <label class="md-nav__title" for="nav-2-5">
-        <span class="md-nav__icon md-icon"></span>
-        Other components
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Guides/deployments/Installing%20Connectivity%20Units/" title="Connectivity Units" class="md-nav__link">
-      Connectivity Units
     </a>
   </li>
 
@@ -789,18 +739,6 @@
   <li class="md-nav__item">
     <a href="../../Guides/deployments/Using%20the%20power%20supply/" title="Power Supply" class="md-nav__link">
       Power Supply
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../Guides/deployments/Installing%20solar%20panel/" title="Solar Panel" class="md-nav__link">
-      Solar Panel
     </a>
   </li>
 
@@ -848,6 +786,18 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Projects/demo/" title="Project Template" class="md-nav__link">
+      Project Template
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -882,18 +832,6 @@
   <li class="md-nav__item">
     <a href="../../About/about/" title="About" class="md-nav__link">
       About
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../About/open%20calls/" title="Open Calls" class="md-nav__link">
-      Open Calls
     </a>
   </li>
 
@@ -989,8 +927,7 @@
                 
                 <h1 id="citizen-water-station">Citizen Water Station<a class="headerlink" href="#citizen-water-station" title="Permanent link">&para;</a></h1>
 <p><img src="https://live.staticflickr.com/65535/51124639732_90241111a9_k.jpg" alt="Water Station - Patí Científic"></p>
-<p>Different sensor probes can be selected for different needs. For example the setup shown above is designed for sea water measurements and includes <a href="https://www.atlas-scientific.com">Atlas Scientific</a> temperature, conductivity and PH probes.</p>
-<p>Some of the sensors selected are from Atlas Scientific, a New York-based company that <em>converts devices that were originally designed to be used by humans into devices that are specifically designed to be used by robots</em>. However, they are modular and exceptionally well documented by the manufacturer. That includes <strong>excellent</strong> documentation on how to install, calibrate and integrate them with additional existing hardware. In this direction, we developed a full library for the SCK to support the sensors via the <em>auxiliary sensor connector</em>. As the sensors can be configured in different ways, we do not provide a full step-by-step guide. Instead, we refer to the documentation on the <a href="https://github.com/fablabbcn/smartcitizen-grow/tree/master/soil-water-probes">project's repository</a>.</p>
+<p>Different sensor probes can be selected for different needs. For example the setup shown above is designed for sea water measurements and includes <a href="https://www.atlas-scientific.com">Atlas Scientific</a> temperature, dissolved oxygen, conductivity and PH probes.</p>
 <div class="admonition info">
 <p class="admonition-title">Use cases</p>
 <p>Check how we have used the water or soil sensors in various projects in the <a href="https://docs.smartcitizen.me/Use cases/Research/">Use cases section</a></p>
@@ -1025,13 +962,6 @@
 <td align="center">Atlas CHEM-PH</td>
 </tr>
 <tr>
-<td align="center">PH</td>
-<td align="center">Soil</td>
-<td align="center">Atlas ENV-45-PH</td>
-<td align="center">Atlas EZO-PH</td>
-<td align="center">Atlas CHEM-PH</td>
-</tr>
-<tr>
 <td align="center">Electrical Conductivity</td>
 <td align="center">Soil and water</td>
 <td align="center">Atlas ENV-40-EC-K</td>
@@ -1044,6 +974,13 @@
 <td align="center">Atlas ENV-40-EC-K</td>
 <td align="center">Atlas EZO-EC</td>
 <td align="center">Atlas CHEM-EC</td>
+</tr>
+<tr>
+<td align="center">ORP</td>
+<td align="center">Water</td>
+<td align="center">Atlas ENV-30-ORP</td>
+<td align="center">Atlas EZO-ORP</td>
+<td align="center">Atlas ASORP225P</td>
 </tr>
 <tr>
 <td align="center">Salinity</td>
@@ -1073,13 +1010,6 @@
 <td align="center">Atlas EZO-DO</td>
 <td align="center">Atlas CHEM-DO</td>
 </tr>
-<tr>
-<td align="center">Soil Moisture</td>
-<td align="center">Soil</td>
-<td align="center">Catnip Chirp!</td>
-<td align="center">None</td>
-<td align="center">Cup of water</td>
-</tr>
 </tbody>
 </table>
 <div class="admonition warning">
@@ -1088,6 +1018,7 @@
 </div>
 <h3 id="atlas-scientific-carrier-board-board">Atlas Scientific Carrier board board<a class="headerlink" href="#atlas-scientific-carrier-board-board" title="Permanent link">&para;</a></h3>
 <p>We recommend using <a href="https://www.whiteboxes.ch/shop/tentacle-t3-for-raspberry-pi/">Whitebox Labs Tentacle T3</a> that hosts up to 3 Atlas Scientific Probes, and can be stacked with several units. It connects to the SCK via the Aux sensor connector, and needs external 5V connection, which means that it can't run on battery directly connected to the SCK without extras. If you want to make your own, before the Tentacle T3 existed we designed a <a href="https://github.com/fablabbcn/monitoring-kit-hardware">custom board</a> in collaboration in with <a href="http://aquapioneers.io">Aquapiooners</a>.</p>
+<p>Additionally, there are single sensor boards such as <a href="https://atlas-scientific.com/carrier-boards/electrically-isolated-ezo-carrier-board-gen-2/">Electrically Isolated EZO Carrier Board</a>.</p>
 <p><img alt="" src="https://i.imgur.com/6FysvIl.png" /></p>
 <div class="admonition info">
 <p class="admonition-title">Ready to set it all up</p>
@@ -1164,8 +1095,8 @@
 
         <!-- Link to previous page -->
         
-          <a href="../Citizen%20Air%20Station/"
-              title="Citizen Air Station"
+          <a href="../Citizen%20Water%20Kit/"
+              title="Citizen Water Kit"
               class="md-flex md-footer-nav__link md-footer-nav__link--prev"
               rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -1178,7 +1109,7 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Citizen Air Station
+                Citizen Water Kit
               </span>
             </div>
           </a>
