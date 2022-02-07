@@ -1,6 +1,6 @@
 # Using the custom power supply
 
-The power supply is very simple to operate. If you have purchased one, normally, everything should be connected and ready to go. In some cases, the AC cable (left screw connector) is not connected, and it can be simply connected through the cable gland into the terminals. No ground is required.
+The power supply is very simple to operate. If you have one, normally, everything should be connected and ready to go. In some cases, the AC cable (left screw connector) is not connected, and it can be simply connected through the cable gland into the terminals. No ground is required.
 
 ![](https://i.imgur.com/5vjmOdX.jpg)
 
@@ -14,6 +14,4 @@ More information regarding the power input is shown below and available [in the 
 
 - Input range: 100V-240VAC 50-60Hz, max 0.25A input, 1A Fused, or 277VAC 0.125A, also 50-60Hz
 - Output range: 5V DC, max 2.0A
-
-
 

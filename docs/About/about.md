@@ -2,6 +2,7 @@
 
 The Smart Citizen project has joined forces with several research institutions in Europe to create [MINKE](https://minke.eu), a project that aims to create accessible research infrastructure in marine environments.
 
+<img src="https://live.staticflickr.com/65535/51230999376_da8d98fa62_k.jpg" width="2000" height="1333" alt="Patí Científic Workshop">
 !!! info "More about funding"
 
     <a href="https://minke.eu/"><img class="logo" src="/assets/images/MINKE-logo.png" width="120" alt=""></a>

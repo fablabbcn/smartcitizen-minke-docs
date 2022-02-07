@@ -1,4 +1,6 @@
-Welcome to the **MINKE project** sensor documentation! In MINKE we want to create more accessible sensors so that communities can better understand their environment. Learn how to access them in the [about section](About/about.md), check out the [sensors we offer](Sensors) or get started with our [guides](#guides).
+Welcome to the **MINKE project** sensor documentation! In MINKE we want to create more accessible sensors so that communities can better understand their environment. Learn how to access them in the [about section](About/about.md), check out the [sensors we offer](Sensors) or get started with our [guides](/Guides).
+
+<img src="https://live.staticflickr.com/65535/51232063955_5f4f9c1bad_k.jpg" width="2000" height="1333" alt="Patí Científic Workshop">
 
 !!! info "Upfront with our funding"
 
