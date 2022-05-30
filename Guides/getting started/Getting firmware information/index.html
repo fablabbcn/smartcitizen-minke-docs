@@ -17,7 +17,7 @@
         <meta name="author" content="Smart Citizen Team">
       
       <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-5.5.11">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-5.5.11">
     
     
       
@@ -126,7 +126,7 @@
     
       <div class="md-header-nav__source">
         
-<a href="https://github.com/fablabbcn/smartcitizen-minke-docs/" title="Go to repository" class="md-source">
+<a href="https://github.com/fablabbcn/smartcitizen-minke-docs" title="Go to repository" class="md-source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
@@ -185,7 +185,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../../../Projects/" class="md-tabs__link">
+        <a href="../../../Projects/about/" class="md-tabs__link">
           Projects
         </a>
       
@@ -230,7 +230,7 @@
   
     <div class="md-nav__source">
       
-<a href="https://github.com/fablabbcn/smartcitizen-minke-docs/" title="Go to repository" class="md-source">
+<a href="https://github.com/fablabbcn/smartcitizen-minke-docs" title="Go to repository" class="md-source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
@@ -717,20 +717,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../Projects/" title="About this section" class="md-nav__link">
+    <a href="../../../Projects/about/" title="About this section" class="md-nav__link">
       About this section
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../../Projects/demo/" title="Project Template" class="md-nav__link">
-      Project Template
     </a>
   </li>
 
@@ -834,17 +822,16 @@
 <div class="admonition tip">
 <p class="admonition-title">Obtain your firmware version remotely (advanced)</p>
 <p>If you are an advance user managing a big deployment of devices you can obtain remotely the version of all the Kits you have registered by looking at the <code>hardware_info</code> property of each of your devices using the platform API <code>/v0/devices/</code>. When your Kit is in Wi-Fi mode, it publishes the information daily.</p>
-<div class="highlight"><pre><span></span><code>&quot;hardware_info&quot;: {
-    &quot;id&quot;: &quot;DFD098A750515157382E3120FF101D12&quot;,
-    &quot;mac&quot;: &quot;B6:E6:2D:66:47:6D&quot;,
-    &quot;time&quot;: &quot;2020-04-14T03:00:24Z&quot;,
-    &quot;esp_bd&quot;: &quot;&quot;,
-    &quot;hw_ver&quot;: &quot;2.1&quot;,
-    &quot;sam_bd&quot;: &quot;2019-11-27T12:49:13Z&quot;,
-    &quot;esp_ver&quot;: &quot;&quot;,
-    &quot;sam_ver&quot;: &quot;0.9.6-4e90c77&quot;
-}
-</code></pre></div>
+<p><code>"hardware_info": {
+    "id": "DFD098A750515157382E3120FF101D12",
+    "mac": "B6:E6:2D:66:47:6D",
+    "time": "2020-04-14T03:00:24Z",
+    "esp_bd": "",
+    "hw_ver": "2.1",
+    "sam_bd": "2019-11-27T12:49:13Z",
+    "esp_ver": "",
+    "sam_ver": "0.9.6-4e90c77"
+}</code></p>
 <p>More info in the platform <a href="https://developer.smartcitizen.me/#devices">API documentation</a>.</p>
 </div>
                 
@@ -1013,7 +1000,7 @@
     </div>
     
       <script src="../../../assets/javascripts/vendor.df0def68.min.js"></script>
-      <script src="../../../assets/javascripts/bundle.ba57d267.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      <script src="../../../assets/javascripts/bundle.ba57d267.min.js"></script><script id="__lang" type="application/json">{"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching"}</script>
       
       <script>
         app = initialize({
