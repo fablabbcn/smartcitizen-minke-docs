@@ -5,7 +5,8 @@ demo_project_url: https://oscgonfer.github.io/sc-book
 projects:
   - [Demo, https://fablabbcn.github.io/smartcitizen-minke-template]
   - [ACTIVATE, https://oscgonfer.github.io/sc-book]
-  - [SmartCoKLIMINKE, https://oscgonfer.github.io/sc-book]  
+  - [SmartCoKLIMINKE, https://oscgonfer.github.io/sc-book]
+  - [Lowess, https://oscgonfer.github.io/sc-book]
 ---
 
 # Projects
