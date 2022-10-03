@@ -1,6 +1,6 @@
 site_name: MINKE Sensors Documentation
 site_description: MINKE Documentation
-site_author: Smart Citizen Team
+site_author: Fab Lab Barcelona
 site_url: https://participatory-tech.docs.minke.eu/
 repo_name: smartcitizen-minke-docs
 repo_url: https://github.com/fablabbcn/smartcitizen-minke-docs
@@ -45,8 +45,19 @@ theme:
   name: 'material'
   features:
     - instant
-    - navigation.expand
-    - tabs
+    # - navigation.expand
+    - navigation.indexes
+    - navigation.instant
+    # - navigation.prune
+    # - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.tooltips
   custom_dir: 'custom_theme'
   logo: 'assets/images/MINKE-logo-small.png'
   favicon: 'assets/images/favicon.ico'
@@ -74,8 +85,14 @@ extra:
   license_link: 'https://www.gnu.org/licenses/fdl-1.3-standalone.html'
   discourse: 'https://forum.smartcitizen.me/'
   disqus: 'fake'
+  fullscreen_button: true
+  tmp_dir: '/tmp'
+  base_dir: 'docs'
+  site_dir: 'site'
+  local: false
 
 markdown_extensions:
+  - md_in_html
   - admonition
   - codehilite
   - footnotes
@@ -93,15 +110,14 @@ markdown_extensions:
   - pymdownx.magiclink
   - pymdownx.mark
   - pymdownx.smartsymbols
-  - pymdownx.snippets:
-      base_path: 'docs'
+  # - pymdownx.snippets:
+  #     base_path: 'docs'
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
   - attr_list
   - pymdownx.tabbed
-  - meta
 
 plugins:
   - search
@@ -110,5 +126,5 @@ plugins:
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
   - 'https://buttons.github.io/buttons.js'
-
+  - 'javascripts/extra.js' 
   

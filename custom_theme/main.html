@@ -1,13 +1,25 @@
 {% extends "base.html" %}
 
-{% block disqus %}
-  <!-- Add custom comment system integration here -->
-  {% if config.extra.discourse and config.extra.disqus %}
-    {% include "partials/integrations/discourse.html" %}
-  {% endif %}
-
-{% endblock %}
-
 {% block extrahead %}
-    <script defer data-domain="participatory-tech.docs.minke.eu" src="https://plausible.io/js/plausible.js"></script>
+<!-- In case you want to add plausible.io metrics -->
+    <!-- <script defer data-domain="your-domain" src="https://plausible.io/js/plausible.js"></script> -->
 {% endblock %}
+
+{% block content %}
+
+{% if page.meta.url_to_pdf %}
+<!-- For a button to appear so that you can download a PDF -->
+    <a href="{{ page.meta.url_to_pdf }}" title="Get PDF" class="md-content__button md-icon">
+        {% include ".icons/material/file-pdf-box.svg" %}
+    </a>
+{% endif %}
+
+{% if config.extra.fullscreen_button %}
+<!-- For a button to appear so that you can toggle fullscreen -->
+    <button onclick="toggleFullScreen()" title="Fullscreen mode" class="md-content__button md-icon fullscreen_button">
+         {% include ".icons/octicons/screen-full-16.svg" %}
+    </button>
+{% endif %}
+
+{{ super() }}
+{% endblock content %}
