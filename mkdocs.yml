@@ -86,7 +86,7 @@ extra:
   tmp_dir: '/tmp'
   base_dir: 'docs'
   site_dir: 'site'
-  local: true
+  local: false
 
 markdown_extensions:
   - md_in_html
