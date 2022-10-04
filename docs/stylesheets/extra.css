@@ -7,6 +7,36 @@
   --md-primary-fg-color--dark:  #27C1DE;
 }
 
+button.fullscreen_button:hover{
+    filter: invert(11%) sepia(100%) saturate(4334%) hue-rotate(237deg) brightness(111%) contrast(140%)
+}
+.md-tabs.fullscreen-mode {
+    height: 0px;
+    transition: .3s ease-in-out;
+}
+
+.md-tabs:not(fullscreen-mode) {
+    transition: .3s ease-in-out;
+}
+
+.md-sidebar--primary.fullscreen-mode {
+    width: 0px;
+    transition: .3s ease-in-out;
+}
+
+.md-sidebar--secondary.fullscreen-mode {
+    width: 0px;
+    transition: .3s ease-in-out;
+}
+
+.md-sidebar--primary:not(.fullscreen-mode) {
+    transition: .3s ease-in-out;    
+}
+
+.md-sidebar--secondary:not(.fullscreen-mode) {
+    transition: .3s ease-in-out;    
+}
+
 .md-header-nav__button.md-logo img, .md-header-nav__button.md-logo svg{
     /*width: 100%;*/
     height: 25px;

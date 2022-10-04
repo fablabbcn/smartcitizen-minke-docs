@@ -66,9 +66,6 @@ theme:
   icon:
     repo: fontawesome/brands/git-alt
 
-extra_css:
-  - stylesheets/extra.css
-
 extra:
   social:
     - icon: fontawesome/brands/twitter
@@ -89,7 +86,7 @@ extra:
   tmp_dir: '/tmp'
   base_dir: 'docs'
   site_dir: 'site'
-  local: false
+  local: true
 
 markdown_extensions:
   - md_in_html
@@ -123,6 +120,9 @@ plugins:
   - search
   - macros
   
+extra_css:
+  - stylesheets/extra.css
+
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
   - 'https://buttons.github.io/buttons.js'
