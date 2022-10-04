@@ -50,7 +50,7 @@
     
     
 <!-- In case you want to add plausible.io metrics -->
-    <!-- <script defer data-domain="your-domain" src="https://plausible.io/js/plausible.js"></script> -->
+    <script defer data-domain="participatory-tech.docs.minke.eu" src="https://plausible.io/js/plausible.js"></script>
 
   </head>
   
@@ -1008,6 +1008,19 @@
     Sensor packs
   </a>
   
+    <nav class="md-nav" aria-label="Sensor packs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ids-for-platform-registration" class="md-nav__link">
+    IDs for platform registration
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -1053,44 +1066,58 @@
 <li><a href="/Sensors/Basic Water Station">Citizen Water Kit</a>: a combination of water and air sensors, to choose between pH and ORP for water sensors, water temperature, and adding an air temperature and humidity</li>
 <li><a href="/Sensors/Citizen Water Station">Citizen Water Station</a>: a flexible solution for water monitoring. Includes metrics like pH, DO, Conductivity, ORP and submergible temperature, with optional GPS</li>
 </ul>
+<p>| <strong>Kit</strong> | <strong>Use</strong> | <strong>Available units</strong> | <strong>Metrics</strong> | <strong>Power</strong> | <strong>Battery only?</strong> |
+| :-: |:-: |:-: |:-: |:-: |
+| <strong>Citizen Kit</strong> | Air quality | 60-90 |  T, H, P, PM, Noise, Light and VOCs | USB or AC with Power supply | Yes |
+| <strong>Basic Water Station</strong> | Air/Water | 40-50 |  Air T, H; Water pH, ORP or T  | USB or AC with Power supply | Yes |
+| <strong>Advanced Water Station</strong> | Water | 16 |  Water pH, ORP, DO, COND, T and optional GPS | USB or AC with Power supply | No (yes with external battery pack) |</p>
+<div class="admonition info">
+<p class="admonition-title">Looking for mobile measurements?</p>
+<p>We also include GPS readings in some of the sensors, to be able to measure dynamically like in the <a href="https://paticientific.org/">Pati Cientific</a></p>
+</div>
+<h3 id="ids-for-platform-registration">IDs for platform registration<a class="headerlink" href="#ids-for-platform-registration" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
 <th align="center"><strong>Kit</strong></th>
-<th align="center"><strong>Use</strong></th>
-<th align="center"><strong>Available units</strong></th>
+<th align="center"><strong>Extras</strong></th>
+<th align="center"><strong>ID</strong></th>
 <th align="center"><strong>Metrics</strong></th>
-<th align="center"><strong>Power</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td align="center"><strong>Citizen Kit</strong></td>
-<td align="center">Air quality</td>
-<td align="center">60-90</td>
+<td align="center">None</td>
+<td align="center">26 (default)</td>
 <td align="center">T, H, P, PM, Noise, Light and VOCs</td>
-<td align="center">USB or AC with Power supply</td>
 </tr>
 <tr>
-<td align="center"><strong>Basic Water Station</strong></td>
-<td align="center">Air/Water</td>
-<td align="center">40-50</td>
-<td align="center">Air T, H; Water pH, ORP or T</td>
-<td align="center">USB or AC with Power supply</td>
+<td align="center"><strong>Citizen Kit with External T/H Probe</strong></td>
+<td align="center">T/H Probe</td>
+<td align="center">38</td>
+<td align="center">T, H, P, PM, Noise, Light and VOCs and external T/H probe</td>
+</tr>
+<tr>
+<td align="center"><strong>Citizen Kit with GPS</strong></td>
+<td align="center">GPS</td>
+<td align="center">38</td>
+<td align="center">T, H, P, PM, Noise, Light and VOCs and GPS Metrics</td>
+</tr>
+<tr>
+<td align="center"><strong>Basic Water Kit</strong></td>
+<td align="center">Reduced Water sensors</td>
+<td align="center">31</td>
+<td align="center">One of pH, ORP, Temp</td>
 </tr>
 <tr>
 <td align="center"><strong>Advanced Water Station</strong></td>
-<td align="center">Water</td>
-<td align="center">16</td>
-<td align="center">Water pH, ORP, DO, COND, T and optional GPS</td>
-<td align="center">USB or AC with Power supply</td>
+<td align="center">Water sensors and GPS (optional)</td>
+<td align="center">31</td>
+<td align="center">Some or all of pH, ORP, DO, COND, T and optional GPS</td>
 </tr>
 </tbody>
 </table>
-<div class="admonition info">
-<p class="admonition-title">Looking for mobile measurements?</p>
-<p>We also include GPS readings in some of the sensors, to be able to measure dynamically like in the <a href="https://paticientific.org/">Pati Cientific</a></p>
-</div>
 
               
 

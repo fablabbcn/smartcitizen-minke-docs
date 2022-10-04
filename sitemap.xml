@@ -2,117 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://participatory-tech.docs.minke.eu/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://participatory-tech.docs.minke.eu/Troubleshooting/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://participatory-tech.docs.minke.eu/_FAQ/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://participatory-tech.docs.minke.eu/About/about/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://participatory-tech.docs.minke.eu/Data/Data%20Analysis/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://participatory-tech.docs.minke.eu/Data/Sensor%20Platform/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://participatory-tech.docs.minke.eu/Guides/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://participatory-tech.docs.minke.eu/Guides/calibration/Water%20sensors/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://participatory-tech.docs.minke.eu/Guides/deployments/Citizen%20Kit/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://participatory-tech.docs.minke.eu/Guides/deployments/Citizen%20Water%20Station/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://participatory-tech.docs.minke.eu/Guides/deployments/Using%20the%20power%20supply/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://participatory-tech.docs.minke.eu/Guides/firmware/Edit%20the%20firmware/</loc>
+         <lastmod>2022-10-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://participatory-tech.docs.minke.eu/Guides/firmware/Update%20the%20firmware/</loc>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://participatory-tech.docs.minke.eu/Guides/getting%20started/Debugging%20your%20sensors/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://participatory-tech.docs.minke.eu/Guides/getting%20started/Downloading%20the%20Data/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://participatory-tech.docs.minke.eu/Guides/getting%20started/Getting%20firmware%20information/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://participatory-tech.docs.minke.eu/Guides/getting%20started/Onboarding%20Sensors/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://participatory-tech.docs.minke.eu/Guides/getting%20started/Updating%20the%20Wi-Fi/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://participatory-tech.docs.minke.eu/Guides/getting%20started/Uploading%20SD%20Card%20Data/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://participatory-tech.docs.minke.eu/Guides/getting%20started/Using%20the%20Shell/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://participatory-tech.docs.minke.eu/Projects/about/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://participatory-tech.docs.minke.eu/Sensors/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://participatory-tech.docs.minke.eu/Sensors/Citizen%20Kit/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://participatory-tech.docs.minke.eu/Sensors/Citizen%20Water%20Kit/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://participatory-tech.docs.minke.eu/Sensors/Citizen%20Water%20Station/</loc>
-         <lastmod>2022-10-03</lastmod>
+         <lastmod>2022-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
