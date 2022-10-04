@@ -18,7 +18,7 @@ The MINKE sensor portfolio is a selection of sensors from the [Smart Citizen pro
 
 
 | **Kit** | **Use** | **Available units** | **Metrics** | **Power** | **Battery only?** |
-| :-: |:-: |:-: |:-: |:-: |
+| :-: |:-: |:-: |:-: |:-: |:-: |
 | **Citizen Kit** | Air quality | 60-90 |  T, H, P, PM, Noise, Light and VOCs | USB or AC with Power supply | Yes |
 | **Basic Water Station** | Air/Water | 40-50 |  Air T, H; Water pH, ORP or T  | USB or AC with Power supply | Yes |
 | **Advanced Water Station** | Water | 16 |  Water pH, ORP, DO, COND, T and optional GPS | USB or AC with Power supply | No (yes with external battery pack) |
