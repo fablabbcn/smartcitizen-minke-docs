@@ -17,12 +17,21 @@ The MINKE sensor portfolio is a selection of sensors from the [Smart Citizen pro
 - [Citizen Water Station](/Sensors/Citizen Water Station): a flexible solution for water monitoring. Includes metrics like pH, DO, Conductivity, ORP and submergible temperature, with optional GPS
 
 
-| **Kit** | **Use** | **Available units** | **Metrics** | **Power** |
+| **Kit** | **Use** | **Available units** | **Metrics** | **Power** | **Battery only?** |
 | :-: |:-: |:-: |:-: |:-: |
-| **Citizen Kit** | Air quality | 60-90 |  T, H, P, PM, Noise, Light and VOCs | USB or AC with Power supply |
-| **Basic Water Station** | Air/Water | 40-50 |  Air T, H; Water pH, ORP or T  | USB or AC with Power supply |
-| **Advanced Water Station** | Water | 16 |  Water pH, ORP, DO, COND, T and optional GPS | USB or AC with Power supply |
+| **Citizen Kit** | Air quality | 60-90 |  T, H, P, PM, Noise, Light and VOCs | USB or AC with Power supply | Yes |
+| **Basic Water Station** | Air/Water | 40-50 |  Air T, H; Water pH, ORP or T  | USB or AC with Power supply | Yes |
+| **Advanced Water Station** | Water | 16 |  Water pH, ORP, DO, COND, T and optional GPS | USB or AC with Power supply | No (yes with external battery pack) |
 
 !!! info "Looking for mobile measurements?"
     We also include GPS readings in some of the sensors, to be able to measure dynamically like in the [Pati Cientific](https://paticientific.org/)
 
+### IDs for platform registration
+
+| **Kit** | **Extras** | **ID** | **Metrics** |
+| :-: |:-: |:-: |:-: |
+| **Citizen Kit** | None | 26 (default) |  T, H, P, PM, Noise, Light and VOCs | 
+| **Citizen Kit with External T/H Probe** | T/H Probe | 38 |  T, H, P, PM, Noise, Light and VOCs and external T/H probe|
+| **Citizen Kit with GPS** | GPS | 38 |  T, H, P, PM, Noise, Light and VOCs and GPS Metrics|
+| **Basic Water Kit** | Reduced Water sensors | 31 |  One of pH, ORP, Temp  |
+| **Advanced Water Station** | Water sensors and GPS (optional) | 31 |  Some or all of pH, ORP, DO, COND, T and optional GPS |
