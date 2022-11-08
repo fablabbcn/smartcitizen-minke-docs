@@ -2,6 +2,10 @@ Welcome to the **MINKE project** sensor documentation! In MINKE we want to creat
 
 <img src="https://live.staticflickr.com/65535/51232063955_5f4f9c1bad_k.jpg" width="2000" height="1333" alt="Patí Científic Workshop">
 
+## MINKE Webinars
+
+{{ get_snippet_git('https://github.com/fablabbcn/smartcitizen-docs', 'docs/includes/en/webinars/minke.md')}}
+
 !!! info "Upfront with our funding"
 
     <a href="https://minke.eu/"><img class="logo" src="/assets/images/MINKE-logo.png" width="120" alt=""></a>
