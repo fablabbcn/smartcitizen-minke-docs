@@ -8,11 +8,11 @@ repo_url: https://github.com/fablabbcn/smartcitizen-minke-docs
 nav:
   - Main:
     - Welcome!: index.md
-    - Sensors: 
-      - Index: Sensors/index.md
-      - Citizen Kit: Sensors/Citizen Kit.md
-      - Citizen Water Kit: Sensors/Citizen Water Kit.md
-      - Citizen Water Station: Sensors/Citizen Water Station.md
+    - Sensors:
+      - Index: Units/index.md
+      - Citizen Kit: Units/Citizen Kit.md
+      - Citizen Water Kit: Units/Citizen Water Kit.md
+      - Citizen Water Station: Units/Citizen Water Station.md
     - Data:
       - Sensor Platform: Data/Sensor Platform.md
       - Data Analysis: Data/Data Analysis.md
@@ -30,26 +30,24 @@ nav:
       - Debugging your sensors: Guides/getting started/Debugging your sensors.md
     - Calibration:
       - Water sensors: Guides/calibration/Water sensors.md
-    - Deploying sensors:
-      - Citizen Kit: Guides/deployments/Citizen Kit.md
-      - Citizen Water Station: Guides/deployments/Citizen Water Station.md
-      - Power Supply: Guides/deployments/Using the power supply.md
+    # - Deploying sensors:
+    #   - Citizen Kit: Guides/deployments/Citizen Kit.md
+    #   - Citizen Water Station: Guides/deployments/Citizen Water Station.md
+    #   - Power Supply: Guides/deployments/Using the power supply.md
     # - Enclosures:
     #   - Making your own enclosures: Guides/enclosures/Making your own enclosures.md
-  - Projects:
-    - About this section: Projects/about.md
-  - About: 
+  - Webinars:
+    - Webinars: Webinars/index.md
+  - About:
     - About: About/about.md
 
 theme:
   name: 'material'
   features:
     - instant
-    # - navigation.expand
     - navigation.indexes
     - navigation.instant
-    # - navigation.prune
-    # - navigation.sections
+    - navigation.path
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
@@ -58,6 +56,10 @@ theme:
     - search.share
     - search.suggest
     - content.tooltips
+    - content.action.edit
+    - content.action.view
+    - toc.follow
+    - navigation.footer
   custom_dir: 'custom_theme'
   logo: 'assets/images/MINKE-logo-small.png'
   favicon: 'assets/images/favicon.ico'
@@ -87,6 +89,65 @@ extra:
   base_dir: 'docs'
   site_dir: 'site'
   local: false
+  urls:
+    buy:
+      name: seeedstudio.com
+      link: https://www.seeedstudio.com/Smart-Citizen2-3-p-6327.html
+    installation:
+      name: start.smartcitizen.me
+      link: https://start.smartcitizen.me/
+    main:
+      name: smartcitizen.me
+      link: https://smartcitizen.me/
+    platform:
+      name: smartcitizen.me/kits
+      link: https://smartcitizen.me/kits
+    api:
+      name: api.smartcitizen.me
+      link: https://api.smartcitizen.me
+    ghapi:
+      name: fablabbcn/smartcitizen-api
+      link: https://github.com/fablabbcn/smartcitizen-api
+    developer:
+      name: developer.smartcitizen.me
+      link: https://developer.smartcitizen.me
+    forum:
+      name: forum.smartcitizen.me
+      link: https://forum.smartcitizen.me
+    support:
+      name: support@smartcitizen.me
+      link: mailto:support@smartcitizen.me
+    info:
+      name: info@smartcitizen.me
+      link: mailto:info@smartcitizen.me
+    status:
+      name: status.smartcitizen.me
+      link: https://status.smartcitizen.me
+    firmware:
+      name: fablabbcn/smartcitizen-kit-2x
+      link: https://github.com/fablabbcn/smartcitizen-kit-2x
+    ghfablab:
+      name: github.com/fablabbcn/
+      link: https://github.com/search?q=org%3Afablabbcn+smartcitizen&type=repositories
+    ghhardware:
+      name: fablabbcn/smartcitizen-kit-2x/hardware
+      link: https://github.com/fablabbcn/smartcitizen-kit-2x/tree/master/hardware
+    enclosures:
+      name: enclosures.smartcitizen.me
+      link: https://enclosures.smartcitizen.me
+    fablabbcn:
+      name: Fab Lab Barcelona
+      link: https://fablabbcn.org
+    iaac:
+      name: Institute For Advanced Architecture Of Catalonia
+      link: https://iaac.net
+  # alternate:
+  #   - name: English
+  #     link: /
+  #     lang: en
+  #   - name: Español
+  #     link: /es/
+  #     lang: es
 
 markdown_extensions:
   - md_in_html
@@ -119,12 +180,11 @@ markdown_extensions:
 plugins:
   - search
   - macros
-  
+
 extra_css:
   - stylesheets/extra.css
 
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
   - 'https://buttons.github.io/buttons.js'
-  - 'javascripts/extra.js' 
-  
+  - 'javascripts/extra.js'

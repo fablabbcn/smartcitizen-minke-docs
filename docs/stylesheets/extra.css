@@ -30,11 +30,11 @@ button.fullscreen_button:hover{
 }
 
 .md-sidebar--primary:not(.fullscreen-mode) {
-    transition: .3s ease-in-out;    
+    transition: .3s ease-in-out;
 }
 
 .md-sidebar--secondary:not(.fullscreen-mode) {
-    transition: .3s ease-in-out;    
+    transition: .3s ease-in-out;
 }
 
 .md-header-nav__button.md-logo img, .md-header-nav__button.md-logo svg{
@@ -60,6 +60,20 @@ button.fullscreen_button:hover{
     justify-content: justify;
     align-items: center;
     max-width: 90%;
+}
+
+.webinar-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.webinar-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .led {
