@@ -219,8 +219,8 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../Projects/about/" class="md-tabs__link">
-        Projects
+      <a href="../../../Webinars/" class="md-tabs__link">
+        Webinars
       </a>
     </li>
   
@@ -370,7 +370,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../../Sensors/">Sensors</a>
+          <a href="../../../Units/">Sensors</a>
           
             <label for="__nav_1_2">
               <span class="md-nav__icon md-icon"></span>
@@ -393,7 +393,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Sensors/Citizen%20Kit/" class="md-nav__link">
+      <a href="../../../Units/Citizen%20Kit/" class="md-nav__link">
         Citizen Kit
       </a>
     </li>
@@ -407,7 +407,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Sensors/Citizen%20Water%20Kit/" class="md-nav__link">
+      <a href="../../../Units/Citizen%20Water%20Kit/" class="md-nav__link">
         Citizen Water Kit
       </a>
     </li>
@@ -421,7 +421,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Sensors/Citizen%20Water%20Station/" class="md-nav__link">
+      <a href="../../../Units/Citizen%20Water%20Station/" class="md-nav__link">
         Citizen Water Station
       </a>
     </li>
@@ -557,8 +557,6 @@
         
           
             
-          
-        
           
         
           
@@ -738,29 +736,57 @@
     How to access it?
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#some-examples" class="md-nav__link">
-    Some examples!
-  </a>
-  
-    <nav class="md-nav" aria-label="Some examples!">
+    <nav class="md-nav" aria-label="How to access it?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#shell-mode" class="md-nav__link">
-    Shell Mode
+  <a href="#using-the-arduino-ide" class="md-nav__link">
+    Using the Arduino IDE
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#set-the-recording-configuration" class="md-nav__link">
-    Set the recording configuration
+  <a href="#using-webusb" class="md-nav__link">
+    Using WebUSB
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#using-a-terminal-directly" class="md-nav__link">
+    Using a terminal directly
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#available-commands" class="md-nav__link">
+    Available commands
+  </a>
+  
+    <nav class="md-nav" aria-label="Available commands">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#shell-mode-shell" class="md-nav__link">
+    Shell Mode - shell
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-the-recording-configuration-config" class="md-nav__link">
+    Set the recording configuration - config
+  </a>
+  
+    <nav class="md-nav" aria-label="Set the recording configuration - config">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#set-recording-and-publication-intervals" class="md-nav__link">
@@ -770,36 +796,83 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#get-version-data" class="md-nav__link">
-    Get version data
+  <a href="#sensor-based-reading-interval" class="md-nav__link">
+    Sensor based reading interval
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disable-sanity-reset-config" class="md-nav__link">
+    Disable sanity reset - config
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#listmodify-the-active-sensors" class="md-nav__link">
-    List/modify the active sensors
+  <a href="#get-version-data-version" class="md-nav__link">
+    Get version data - version
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#readmonitor-some-sensors" class="md-nav__link">
-    Read/Monitor some sensors
+  <a href="#get-network-information-netinfo" class="md-nav__link">
+    Get network information - netinfo
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#changing-mqtt-or-ntp-servers" class="md-nav__link">
-    Changing mqtt or ntp servers
+  <a href="#listmodify-the-active-sensors-sensor" class="md-nav__link">
+    List/modify the active sensors - sensor
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#accessing-the-flash-memory" class="md-nav__link">
-    Accessing the flash memory
+  <a href="#read-sensor-data-once-read" class="md-nav__link">
+    Read sensor data once - read
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#read-sensor-data-continuously-monitor" class="md-nav__link">
+    Read sensor data continuously - monitor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changing-mqtt-or-ntp-servers-mqttsrv-ntpsrv" class="md-nav__link">
+    Changing mqtt or ntp servers - mqttsrv / ntpsrv
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accessing-the-flash-memory-flash" class="md-nav__link">
+    Accessing the flash memory - flash
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#change-the-led-brightness-led" class="md-nav__link">
+    Change the LED brightness - led
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sd-card-operations" class="md-nav__link">
+    SD card operations
   </a>
   
 </li>
@@ -911,89 +984,6 @@
 
             
           
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
-      
-      
-      
-        
-          
-        
-          
-        
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_2_4">
-          Deploying sensors
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Deploying sensors" data-md-level="2">
-        <label class="md-nav__title" for="__nav_2_4">
-          <span class="md-nav__icon md-icon"></span>
-          Deploying sensors
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../deployments/Citizen%20Kit/" class="md-nav__link">
-        Citizen Kit
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../deployments/Citizen%20Water%20Station/" class="md-nav__link">
-        Citizen Water Station
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../deployments/Using%20the%20power%20supply/" class="md-nav__link">
-        Power Supply
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
         </ul>
       </nav>
     </li>
@@ -1017,33 +1007,25 @@
       
         
           
+            
+          
         
       
       
-        <label class="md-nav__link" for="__nav_3">
-          Projects
-          <span class="md-nav__icon md-icon"></span>
-        </label>
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../Webinars/">Webinars</a>
+          
+        </div>
       
-      <nav class="md-nav" aria-label="Projects" data-md-level="1">
+      <nav class="md-nav" aria-label="Webinars" data-md-level="1">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
-          Projects
+          Webinars
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../Projects/about/" class="md-nav__link">
-        About this section
-      </a>
-    </li>
-  
-
             
           
         </ul>
@@ -1142,29 +1124,57 @@
     How to access it?
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#some-examples" class="md-nav__link">
-    Some examples!
-  </a>
-  
-    <nav class="md-nav" aria-label="Some examples!">
+    <nav class="md-nav" aria-label="How to access it?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#shell-mode" class="md-nav__link">
-    Shell Mode
+  <a href="#using-the-arduino-ide" class="md-nav__link">
+    Using the Arduino IDE
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#set-the-recording-configuration" class="md-nav__link">
-    Set the recording configuration
+  <a href="#using-webusb" class="md-nav__link">
+    Using WebUSB
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#using-a-terminal-directly" class="md-nav__link">
+    Using a terminal directly
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#available-commands" class="md-nav__link">
+    Available commands
+  </a>
+  
+    <nav class="md-nav" aria-label="Available commands">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#shell-mode-shell" class="md-nav__link">
+    Shell Mode - shell
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-the-recording-configuration-config" class="md-nav__link">
+    Set the recording configuration - config
+  </a>
+  
+    <nav class="md-nav" aria-label="Set the recording configuration - config">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#set-recording-and-publication-intervals" class="md-nav__link">
@@ -1174,36 +1184,83 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#get-version-data" class="md-nav__link">
-    Get version data
+  <a href="#sensor-based-reading-interval" class="md-nav__link">
+    Sensor based reading interval
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disable-sanity-reset-config" class="md-nav__link">
+    Disable sanity reset - config
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#listmodify-the-active-sensors" class="md-nav__link">
-    List/modify the active sensors
+  <a href="#get-version-data-version" class="md-nav__link">
+    Get version data - version
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#readmonitor-some-sensors" class="md-nav__link">
-    Read/Monitor some sensors
+  <a href="#get-network-information-netinfo" class="md-nav__link">
+    Get network information - netinfo
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#changing-mqtt-or-ntp-servers" class="md-nav__link">
-    Changing mqtt or ntp servers
+  <a href="#listmodify-the-active-sensors-sensor" class="md-nav__link">
+    List/modify the active sensors - sensor
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#accessing-the-flash-memory" class="md-nav__link">
-    Accessing the flash memory
+  <a href="#read-sensor-data-once-read" class="md-nav__link">
+    Read sensor data once - read
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#read-sensor-data-continuously-monitor" class="md-nav__link">
+    Read sensor data continuously - monitor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changing-mqtt-or-ntp-servers-mqttsrv-ntpsrv" class="md-nav__link">
+    Changing mqtt or ntp servers - mqttsrv / ntpsrv
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accessing-the-flash-memory-flash" class="md-nav__link">
+    Accessing the flash memory - flash
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#change-the-led-brightness-led" class="md-nav__link">
+    Change the LED brightness - led
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sd-card-operations" class="md-nav__link">
+    SD card operations
   </a>
   
 </li>
@@ -1252,27 +1309,31 @@
 
 
 <h1 id="using-the-shell">Using the Shell<a class="headerlink" href="#using-the-shell" title="Permanent link">&para;</a></h1>
-<p>The SCK (from V2.0 onwards) has an integrated command shell over USB to manage all the kits functionalities for advanced users. In this guide, we will cover how to access to this functionality in different platforms, and some examples.</p>
-<h2 id="what-is-it">What is it?<a class="headerlink" href="#what-is-it" title="Permanent link">&para;</a></h2>
-<p>We could define the <code>shell</code> as a text-based interface to access almost any SCK functionality. In terms of hardware, it relies on the <a href="https://en.wikipedia.org/wiki/Serial_communication">serial communication</a> between the SCK and your computer, so any <strong>decent</strong> USB cable connected between them will do.</p>
-<h2 id="how-to-access-it">How to access it?<a class="headerlink" href="#how-to-access-it" title="Permanent link">&para;</a></h2>
-<p>Software-wise, different platforms will have different interfaces. The easiest and most reliable for all of them would be through the <a href="https://www.arduino.cc/en/Main/Software">Arduino IDE</a>.</p>
-<div class="admonition example">
-<p class="admonition-title">Using the Arduino IDE</p>
-<ul>
-<li>Launch the <em>Arduino IDE</em> and select the port under <code>Tools &gt; Port &gt;</code>:</li>
-</ul>
-<p><img alt="" src="https://i.imgur.com/XEZXoyy.png" /></p>
-<ul>
-<li>
-<p>Launch the <code>Serial Monitor</code> under <code>Tools &gt; Serial Monitor</code>. Make sure that the dropdowns in the bottom are set as in the image below (<code>Carriage return</code> and <code>115200 baud</code>)</p>
-</li>
-<li>
-<p>Type in <code>help</code> to get started.</p>
-</li>
-</ul>
-<p><img alt="" src="https://i.imgur.com/iSONfFB.png" /></p>
+<p>The SCK (from V2.0 onwards) has an integrated command shell over USB to manage all the kits functionalities. In this guide, we will cover how to access to this functionality in different platforms, and some examples!</p>
+<p>If you are using a <a href="https://developer.mozilla.org/en-US/docs/Web/API/USB#browser_compatibility">webusb compatible browser</a>, you can use the terminal below and access the shell right off-the-shelf!</p>
+<iframe src="https://serial.huhn.me/" style="border:4px #000000 solid;" name="terminal" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="600px" width="100%" allow="serial; usb; fullscreen"></iframe>
+
+<div class="admonition warning">
+<p class="admonition-title">Monitor command</p>
+<p>The <code>monitor</code> command only works if you change the <code>Settings &gt; Line ending</code> to <code>\n</code>.</p>
 </div>
+<h2 id="what-is-it">What is it?<a class="headerlink" href="#what-is-it" title="Permanent link">&para;</a></h2>
+<p>The <code>shell</code> is a text-based interface to access almost any SCK functionality. In terms of hardware, it relies on the <a href="https://en.wikipedia.org/wiki/Serial_communication">serial communication</a> between the SCK and your computer, so any <strong>decent</strong> USB cable connected between them will do.</p>
+<h2 id="how-to-access-it">How to access it?<a class="headerlink" href="#how-to-access-it" title="Permanent link">&para;</a></h2>
+<p>You can access the shell in different ways. The easiest is via <a href="#using-webusb">webUSB</a>, although you need a compatible browser. Otherwise, the <a href="#using-the-arduino-ide">Arduino IDE</a> is a great option! For more advanced users, a <a href="#using-a-terminal-directly">terminal interface</a> will work best.</p>
+<h3 id="using-the-arduino-ide">Using the Arduino IDE<a class="headerlink" href="#using-the-arduino-ide" title="Permanent link">&para;</a></h3>
+<p>Download and install the <a href="https://www.arduino.cc/en/Main/Software">Arduino IDE</a> if you don't have it yet. Next, launch it and select the port under <code>Tools &gt; Port &gt;</code>:</p>
+<p><img alt="" src="/assets/images/arduino-ide-port.png" /></p>
+<p>Launch the <code>Serial Monitor</code> under <code>Tools &gt; Serial Monitor</code>. Make sure that the dropdowns in the bottom are set as in the image below (<code>Carriage return</code>).</p>
+<p>Type in <code>help</code> to get started:</p>
+<p><img alt="" src="/assets/images/arduino-ide-monitor.png" /></p>
+<h3 id="using-webusb">Using WebUSB<a class="headerlink" href="#using-webusb" title="Permanent link">&para;</a></h3>
+<p>You can use a terminal running on the browser, using the <code>WebUSB</code> technology (see above for a working example!). There are plenty of web services, such as <a href="https://serial.huhn.me/">spacehuhn webserial terminal</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Not for all browsers</p>
+<p>Not all browsers support this at the moment. You can check its compatibility <a href="https://developer.mozilla.org/en-US/docs/Web/API/USB#browser_compatibility">here</a>.</p>
+</div>
+<h3 id="using-a-terminal-directly">Using a terminal directly<a class="headerlink" href="#using-a-terminal-directly" title="Permanent link">&para;</a></h3>
 <p>More advanced users would probably rather use a more <em>rugged</em> interface. In this case, you could use <code>screen</code> in your terminal of choice:</p>
 <div class="highlight"><pre><span></span><code>&gt; ls /dev/cu | grep usb
 cu.usbmodem1411
@@ -1281,17 +1342,24 @@ tty.usbmodem1411
 SCK &gt;
 ...
 </code></pre></div>
-<p>If you already installed <a href="https://platformio.org/">platformio</a> to <a href="/Guides/Edit%20the%20Firmware/">edit the firmware</a> you can use it here, too</p>
+<p>If you already installed <a href="https://platformio.org/">platformio</a> to <a href="https://docs.smartcitizen.me/guides/firmware/edit-the-firmware/">edit the firmware</a> you can use it here, too</p>
 <div class="highlight"><pre><span></span><code>&gt; pio device monitor
 SCK &gt;
 ...
 </code></pre></div>
+<p>Finally, if you are a <code>linux</code> user, you can use <a href="https://github.com/tio/tio"><code>tio</code></a>:</p>
+<div class="highlight"><pre><span></span><code>&gt; tio /dev/ttyACM0
+[14:06:45.050] tio v2.5
+[14:06:45.050] Press ctrl-t q to quit
+[14:06:45.109] Connected
+SCK &gt;
+</code></pre></div>
 <div class="admonition warning">
 <p class="admonition-title">Be patient!</p>
-<p>The port will take a little time to appear in your list of devices. Normally the LED of your SCK will be <strong>static white</strong> during that period.</p>
+<p>The port will take a little time to appear in your list of devices. Normally the LED of your SCK will be <strong>breathing white</strong> during that period.</p>
 </div>
-<h2 id="some-examples">Some examples!<a class="headerlink" href="#some-examples" title="Permanent link">&para;</a></h2>
-<p>The <code>help</code> command outputs a quite intuitive explanation of all the commands:</p>
+<h2 id="available-commands">Available commands<a class="headerlink" href="#available-commands" title="Permanent link">&para;</a></h2>
+<p>Type <code>help</code> to get an explanation of each command available:</p>
 <div class="highlight"><pre><span></span><code>SCK &gt; help
 reset:       Resets the SCK
 version:     Shows versions and Hardware ID
@@ -1299,37 +1367,46 @@ rcause:      Show last reset cause (debug)
 outlevel:    Shows/sets output level: outlevel [0:silent, 1:normal, 2:verbose]
 help:        Duhhhh!!
 pinmux:      Shows SAMD pin mapping status
-flash:       Shows and manage flash memory state [no-param -&gt; info] [-format (be carefull)] [-dump sect-num (0-2040)] [-sector sect-num] [-recover sect-num/all net/sd]
-sensor:      Shows/sets sensor state or interval: sensor sensor-name [-enable or -disable] [-interval interval(seconds)] [-oled]
+flash:       Shows and manage flash memory state [no-param -&gt; info] [-format (be careful)] [-dump sect-num (0-2040)] [-sector sect-num] [-recover sect-num/all net/sd]
+sensor:      Shows/sets sensor state or interval: sensor sensor-name [-enable or -disable] [-interval interval(seconds)]
+monitor:     Continously read sensor: monitor [-sd] [-notime] [-noms] [sensorName[,sensorNameN]]
+debug:       Toggle debug messages: debug [-sdcard] [-flash] [-speed] [-serial]
 read:        Reads sensor: read [sensorName]
 control:     Control sensor: control [sensorName] [command]
-monitor:     Continously read sensor: monitor [-sd] [-notime] [-noms] [-oled] [sensorName[,sensorNameN]]
 free:        Shows the amount of free RAM memory
 i2c:         Search the I2C bus for devices
 power:       Controls/shows power config: power [-info (extra info)] [-batcap mAh] [-otg on/off] [-charge on/off] [-sleep min (0-disable)]
-config:      Shows/sets configuration: config [-defaults] [-mode sdcard/network] [-pubint seconds] [-readint seconds] [-wifi &quot;ssid&quot; [&quot;pass&quot;]] [-token token]
+config:      Shows/sets configuration: config [-defaults] [-mode sdcard/network] [-pubint seconds] [-readint seconds] [-wifi &quot;ssid&quot; [&quot;pass&quot;]] [-token token] [-sanity(reset) on/off]
 esp:         Controls or shows info from ESP: esp [-on -off -sleep -wake -reboot -flash]
 netinfo:     Shows network information
 time:        Shows/sets date and time: time [epoch time] [-sync]
 hello:       Sends MQTT hello to platform
-debug:       Toggle debug messages: debug [-sdcard] [-esp] [-oled] [-flash] [-telnet] [-speed]
 shell:       Shows or sets shell mode: shell [-on] [-off]
 publish:     Publish custom mqtt message: mqtt [&quot;topic&quot; &quot;message&quot;]
 offline:     Configure offline periods and WiFi retry interval: [-retryint seconds] [-period start-hour end-hour (UTC 0-23)]
 mqttsrv:     Configure mqtt server address and port: [-host serverName] [-port portNum]
 ntpsrv:      Configure ntp server address and port: [-host serverName] [-port portNum]
+sleep:       Send the kit to sleep
+led:         Changes led brightness: led [percent]
+file:        SD card file operations: [-ls] [-rm filename] [-less filename] [-allcsv]
 </code></pre></div>
-<h3 id="shell-mode">Shell Mode<a class="headerlink" href="#shell-mode" title="Permanent link">&para;</a></h3>
-<p>The SCK outputs  a lot of information via serial. This can be sometimes confusing while typing commands. You can silent it a bit with this command:</p>
+<h3 id="shell-mode-shell">Shell Mode - <code>shell</code><a class="headerlink" href="#shell-mode-shell" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>shell:       Shows or sets shell mode: shell [-on] [-off]
+</code></pre></div>
+<p>The SCK outputs <em>a lot of information</em> via serial. This can be sometimes confusing while typing commands. You can silent it a bit with this command:</p>
 <div class="highlight"><pre><span></span><code>SCK &gt; shell -on
 Shell mode: on
 </code></pre></div>
-<p>This will turn your <strong>LED static yellow</strong>, and no output except responses to your commands will be given. </p>
+<div class="admonition warning">
+<p>This will turn your <strong>LED static yellow</strong>, and no output except responses to your commands will be given.</p>
+</div>
 <p>Remember to turn it off after you are done experimenting!</p>
 <div class="highlight"><pre><span></span><code>SCK &gt; shell -off
 Shell mode: off
 </code></pre></div>
-<h3 id="set-the-recording-configuration">Set the recording configuration<a class="headerlink" href="#set-the-recording-configuration" title="Permanent link">&para;</a></h3>
+<h3 id="set-the-recording-configuration-config">Set the recording configuration - <code>config</code><a class="headerlink" href="#set-the-recording-configuration-config" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>config:      Shows/sets configuration: config [-defaults] [-mode sdcard/network] [-pubint seconds] [-readint seconds] [-wifi &quot;ssid&quot; [&quot;pass&quot;]] [-token token] [-sanity(reset) on/off]
+</code></pre></div>
 <p>If you want to change your recording mode to, for instance, <code>sdcard</code> mode, you could do so by typing:</p>
 <div class="highlight"><pre><span></span><code>SCK &gt; config -mode sdcard
 </code></pre></div>
@@ -1338,9 +1415,9 @@ Shell mode: off
 </code></pre></div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Note that the token is not between quotes since it's always 6 digits</p>
+<p>Note that the token is not between quotes since it's always 6 digits.</p>
 </div>
-<p>To modify your wifi:</p>
+<p>To modify your Wi-Fi credentials:</p>
 <div class="highlight"><pre><span></span><code>SCK &gt; config -wifi &quot;NEWSSID&quot; &quot;NEWPASSWORD&quot;
 </code></pre></div>
 <p>You can check your current configuration by typing <code>config</code>:</p>
@@ -1352,20 +1429,20 @@ Wifi credentials: not configured
 Token: not configured
 Mac address:  11:22:33:44:55:66
 </code></pre></div>
-<h3 id="set-recording-and-publication-intervals">Set recording and publication intervals<a class="headerlink" href="#set-recording-and-publication-intervals" title="Permanent link">&para;</a></h3>
-<p>In order to understand the reading and publication intervals, it is important to describe how the structure of the measurements is done:</p>
+<h4 id="set-recording-and-publication-intervals">Set recording and publication intervals<a class="headerlink" href="#set-recording-and-publication-intervals" title="Permanent link">&para;</a></h4>
+<p>In order to understand the reading and publication intervals, we first need to describe how measurements are taken:</p>
 <ol>
-<li><strong>Overall reading interval</strong>: base period for the SCK to take a measurement</li>
-<li><strong>Individual sensor reading interval</strong>: period for each sensor to take a measurement. It is defined as N times the <em>Overall reading interval</em></li>
-<li><strong>Publication interval</strong>: time for the SCK to publish to the Smart Citizen Platform, independent of the reading interval.</li>
+<li><strong>General reading interval</strong>: this defines the <em>general</em> period that the <strong>SCK</strong> uses to take measurements</li>
+<li><strong>Individual sensor reading interval</strong>: period for <strong>each sensor</strong>. It is defined as N times the <em>General reading interval</em></li>
+<li><strong>Publication interval</strong>: period for the <strong>SCK</strong> to publish to the Smart Citizen Platform, independent of the reading interval.</li>
 </ol>
-<p>Each of the sensors can be configured independently, with a reading interval N times the <em>overall reading interval</em>. For instance, after the <code>SAM firmware V0.9.7</code>, all the sensors are read every 60s except the PMS5003, which is read every 5 minutes or 5 times the reading interval. </p>
-<p>In the case of the publication interval to the Smart Citizen Platform, the  default is 3 minutes.</p>
+<p>Each sensor interval can be configured independently. By default, readings are requested to all sensors every 60s, except the PM sensor, which is read every 5 minutes to save battery.</p>
+<p>The default <strong>publication interval to the Smart Citizen Platform is 3 minutes</strong>.</p>
 <div class="admonition info">
 <p class="admonition-title">Battery calculator</p>
-<p>This configuration option is very interesting to be used for battery saving. Make sure you check the <a href="/Smart%20Citizen%20Kit/#battery-calculator/">battery calculator</a></p>
+<p>This configuration option is very interesting to be used for battery saving. Make sure you check the <a href="https://docs.smartcitizen.me/hardware/kit/features/#battery-calculator">battery calculator</a></p>
 </div>
-<p>All this can be configured using the shell interface. For instance, to set the publication interval to every 10 minutes, we could do:</p>
+<p>All these intervals can be configured using the shell interface. For instance, to set the publication interval to every 10 minutes, we do:</p>
 <div class="highlight"><pre><span></span><code>config -pubint 600
 </code></pre></div>
 <p>Or to set the reading interval to every 3 minutes:</p>
@@ -1374,45 +1451,120 @@ Mac address:  11:22:33:44:55:66
 <p>Or both at 10 minutes:</p>
 <div class="highlight"><pre><span></span><code>config -pubint 600 -readint 600
 </code></pre></div>
-<p>If we want to configure one specific sensor, we can do so by typing the following, only remember, that it's rounded to the closest integer multiplier of the <em>overall reading interval</em>:</p>
+<h4 id="sensor-based-reading-interval">Sensor based reading interval<a class="headerlink" href="#sensor-based-reading-interval" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>sensor:      Shows/sets sensor state or interval: sensor sensor-name [-enable or -disable] [-interval interval(seconds)]
+</code></pre></div>
+<p>To configure one specific sensor, remember that it's rounded to the <em>closest multiple</em> of the <em>general reading interval</em>:</p>
 <div class="highlight"><pre><span></span><code>SCK &gt; sensor temp -interval 360
 The sensor read interval is calculated as a multiple of general read interval (180)
 Changing interval of Temperature to 360
 Saved configuration on eeprom!!
 </code></pre></div>
-<p>For instance, if we try to do 1.5 times the reading interval of the temperature sensor, we will get:</p>
-<div class="highlight"><pre><span></span><code>SCK &gt; sensor temp -interval 240 
+<p>For instance, if we try to do set the temperature readings at 1.5 times, we will get:</p>
+<div class="highlight"><pre><span></span><code>SCK &gt; sensor temp -interval 240
 The sensor read interval is calculated as a multiple of general read interval (180)
 Changing interval of Temperature to 180
 Saved configuration on eeprom!!
 </code></pre></div>
-<p>Some <strong>limitations</strong> apply though:</p>
+<div class="admonition warning">
+<p class="admonition-title">Limitations</p>
 <ol>
-<li>The minimum reading and publish interval is 5s</li>
+<li>The minimum reading and publication interval is 30s</li>
 <li>The maximum reading interval is one hour</li>
-<li>The maximum publish interval is one hour</li>
+<li>The maximum publication interval is one hour</li>
 </ol>
-<p>For more customisation, please <a href="mailto: support@smartcitizen.me">email</a> or post on the <a href="https://forum.smartcitizen.me">forum</a>.</p>
+</div>
+<p>For more customisation, please contact <a href="mailto:support@smartcitizen.me">support@smartcitizen.me</a> or post on the <a href="https://forum.smartcitizen.me">forum</a>.</p>
 <div class="admonition warning">
 <p class="admonition-title">Default configuration</p>
-<p>At the moment there is no command to return to the default configuration. You should use:
-<div class="highlight"><pre><span></span><code>config -pubint 300 -readint 60
-...
-sensor pm -interval 300
-</code></pre></div></p>
-</div>
-<h3 id="get-version-data">Get version data<a class="headerlink" href="#get-version-data" title="Permanent link">&para;</a></h3>
-<p>Check your <strong>hardware and firmware version</strong> data with the command <code>version</code>:</p>
-<div class="highlight"><pre><span></span><code>SCK &gt; version
-Hardware Version: 2.1
-SAM Hardware ID: 5934C4B550515157382E3120FF151210
-SAM version: 0.9.1-30e1776
-SAM build date: 2019-05-07T02:45:29Z
-ESP MAC address: 86:0D:8E:A7:7F:CC
-ESP version: not synced
-ESP build date: not synced
+<p>To reeturn to the default configuration:</p>
+<div class="highlight"><pre><span></span><code>config -defaults
+-- New config --
+
+Mode: not configured
+Publish interval (s): 180
+Reading interval (s): 60
+Wifi credentials: not configured
+Token: not configured
+Sanity reset (every 24 hours) is: on
+
+** Please reset your kit **
 </code></pre></div>
-<h3 id="listmodify-the-active-sensors">List/modify the active sensors<a class="headerlink" href="#listmodify-the-active-sensors" title="Permanent link">&para;</a></h3>
+<p>And <strong>reset</strong> your kit.</p>
+</div>
+<h3 id="disable-sanity-reset-config">Disable <code>sanity reset</code> - <code>config</code><a class="headerlink" href="#disable-sanity-reset-config" title="Permanent link">&para;</a></h3>
+<p>The daily sanity reset is used to ensure the device reboots every day to avoid issues. However, in some cases it can can be disabled by:</p>
+<div class="highlight"><pre><span></span><code>SCK &gt; config -sanity off
+
+-- New config --
+
+Mode: network
+Publish interval (s): 180
+Reading interval (s): 60
+Wifi credentials: My Wi-Fi - mypassword
+Token: ----
+Mac address:  AA:BB:CC:CC:BB:AA
+Sanity reset (every 24 hours) is: off
+</code></pre></div>
+<p>You can enable it back on by:</p>
+<div class="highlight"><pre><span></span><code>SCK &gt; config -sanity on
+
+-- New config --
+
+Mode: network
+Publish interval (s): 180
+Reading interval (s): 60
+Wifi credentials: My Wi-Fi - mypassword
+Token: ----
+Mac address:  AA:BB:CC:CC:BB:AA
+Sanity reset (every 24 hours) is: on
+</code></pre></div>
+<p>To check, simply type <code>config</code>.</p>
+<div class="highlight"><pre><span></span><code>SCK &gt; config
+
+Mode: network
+Publish interval (s): 180
+Reading interval (s): 60
+Wifi credentials: My Wi-Fi - mypassword
+Token: ----
+Mac address:  AA:BB:CC:CC:BB:AA
+Sanity reset (every 24 hours) is: on
+</code></pre></div>
+<h3 id="get-version-data-version">Get version data - <code>version</code><a class="headerlink" href="#get-version-data-version" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>version:     Shows versions and Hardware ID
+</code></pre></div>
+<p>Check your <strong>hardware and firmware version</strong> data with the <code>version</code> command:</p>
+<div class="highlight"><pre><span></span><code>Hardware Version: 2.3
+SAM Hardware ID: 105816085030524E572E3120FF12123C
+SAM version: 0.9.10-88b69c2-master-sck23_air
+SAM build date: 2025-01-31T12:34:45Z
+ESP version: 0.9.9-6ffa643-master
+ESP build date: 2025-01-29T13:05:48Z
+</code></pre></div>
+<h3 id="get-network-information-netinfo">Get network information - <code>netinfo</code><a class="headerlink" href="#get-network-information-netinfo" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>netinfo:     Shows network information
+</code></pre></div>
+<p>Check your <strong>network information</strong> data with the <code>netinfo</code> command:</p>
+<div class="highlight"><pre><span></span><code>SCK &gt; netinfo
+Hostname: SmartcitizenA07C
+IP address: 172.16.20.26
+AP MAC address: EE:64:C9:E1:A0:7C
+STA MAC address: EC:64:C9:E1:A0:7C
+ESP version: 0.9.9-6ffa643-master
+ESP build date: 2025-01-29T13:05:48Z
+</code></pre></div>
+<p>Explanation of each field:</p>
+<ul>
+<li><code>Hostname</code>: Wi-Fi SSID and hostname</li>
+<li><code>IP address</code>: SCK's local IP address</li>
+<li><code>AP MAC address</code>: SCK's <em>access point</em> MAC address</li>
+<li><code>STA MAC address</code>: SCK's <em>station</em> MAC address</li>
+<li><code>ESP version</code>: Wi-Fi Antenna (ESP8266) firmware version</li>
+<li><code>ESP build date</code>: Wi-Fi Antenna (ESP8266) firmware build date</li>
+</ul>
+<h3 id="listmodify-the-active-sensors-sensor">List/modify the active sensors - <code>sensor</code><a class="headerlink" href="#listmodify-the-active-sensors-sensor" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>sensor:      Shows/sets sensor state or interval: sensor sensor-name [-enable or -disable] [-interval interval(seconds)]
+</code></pre></div>
 <p>By typing in <code>sensor</code>, a <strong>list of enabled and supported sensors</strong> is displayed:</p>
 <div class="highlight"><pre><span></span><code>SCK &gt; sensor
 
@@ -1435,29 +1587,34 @@ PM 1.0 (60 sec)
 PM 2.5 (60 sec)
 PM 10.0 (60 sec)
 </code></pre></div>
-<p>To <strong>disable</strong> one sensor, you can type in part of the sensor name:</p>
+<p>To <strong>disable</strong> one sensor (you can type the name partially or fully):</p>
 <div class="highlight"><pre><span></span><code>SCK &gt; sensor Noise -disable
 Disabling Noise dBA
 Saved configuration on eeprom!!
 </code></pre></div>
-<p>To <strong>enable</strong> it, if it's present:</p>
+<p>To <strong>enable</strong> it (only works if it's detected):</p>
 <div class="highlight"><pre><span></span><code>SCK &gt; sensor Noise -enable
 Enabling Noise dBA
 Saved configuration on eeprom!!
 </code></pre></div>
 <div class="admonition warning">
-<p class="admonition-title">Only if available!</p>
-<p>If the sensor you are trying to connect is not recognised, the kit will complain:</p>
+<p class="admonition-title">Only if detected!</p>
+<p>If the sensor you are trying to connect is not recognised, the SCK will complain:</p>
 <div class="highlight"><pre><span></span><code>SCK &gt; sensor atlas -enable
 Failed enabling Atlas Temperature
 </code></pre></div>
 </div>
-<h3 id="readmonitor-some-sensors">Read/Monitor some sensors<a class="headerlink" href="#readmonitor-some-sensors" title="Permanent link">&para;</a></h3>
-<p>If one sensor is enabled, you can <code>read</code> it (once) or <code>monitor</code> it (as fast as the SCK can):</p>
+<h3 id="read-sensor-data-once-read">Read sensor data once - <code>read</code><a class="headerlink" href="#read-sensor-data-once-read" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>read:        Reads sensor: read [sensorName]
+</code></pre></div>
+<p>You can `read`` data from one sensor:</p>
 <div class="highlight"><pre><span></span><code>SCK &gt; read Noise
 Noise dBA: 53.85 dBA
 </code></pre></div>
-<p>To monitor <strong>one sensor</strong>:</p>
+<h3 id="read-sensor-data-continuously-monitor">Read sensor data continuously - <code>monitor</code><a class="headerlink" href="#read-sensor-data-continuously-monitor" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>monitor:     Continously read sensor: monitor [-sd] [-notime] [-noms] [sensorName[,sensorNameN]]
+</code></pre></div>
+<p>Or <code>monitor</code> it continuously:</p>
 <div class="highlight"><pre><span></span><code>SCK &gt; monitor light
 Time    Miliseconds     Light
 2019-07-10T17:58:07Z    6       137
@@ -1474,14 +1631,51 @@ Time    Miliseconds     Light
 2019-07-10T17:58:08Z    98      136
 ...
 </code></pre></div>
-<p>Or all of them, with no arguments:</p>
+<div class="admonition success">
+<p class="admonition-title">Log monitor data on the SD card</p>
+<p>Adding the <code>-sd</code> option will store data into a <code>MONITOR.TXT</code> file on the SD card:</p>
+<div class="highlight"><pre><span></span><code>SCK &gt; monitor -sd light
+Time    Miliseconds     Light
+2019-07-10T17:58:07Z    6       137
+2019-07-10T17:58:07Z    98      137
+2019-07-10T17:58:07Z    98      136
+2019-07-10T17:58:07Z    98      137
+2019-07-10T17:58:07Z    108     137
+2019-07-10T17:58:07Z    98      137
+2019-07-10T17:58:07Z    98      137
+2019-07-10T17:58:07Z    108     137
+2019-07-10T17:58:07Z    98      137
+2019-07-10T17:58:08Z    98      137
+2019-07-10T17:58:08Z    108     137
+2019-07-10T17:58:08Z    98      136
+...
+</code></pre></div>
+</div>
+<p>You can <code>monitor</code> several sensors at the same time, separating the names by comma:</p>
+<div class="highlight"><pre><span></span><code>SCK &gt; monitor light, temp
+Time                    Miliseconds     Light   Temperature
+2019-07-10T17:58:07Z    6               137     23.2
+2019-07-10T17:58:07Z    98              137     23.2
+2019-07-10T17:58:07Z    98              136     23.2
+2019-07-10T17:58:07Z    98              137     23.2
+2019-07-10T17:58:07Z    108             137     23.2
+2019-07-10T17:58:07Z    98              137     23.2
+2019-07-10T17:58:07Z    98              137     23.3
+2019-07-10T17:58:07Z    108             137     23.3
+2019-07-10T17:58:07Z    98              137     23.3
+2019-07-10T17:58:08Z    98              137     23.2
+2019-07-10T17:58:08Z    108             137     23.2
+2019-07-10T17:58:08Z    98              136     23.2
+...
+</code></pre></div>
+<p>You can also monitor all of them at the same time (slow):</p>
 <div class="highlight"><pre><span></span><code>SCK &gt; monitor
 Time    Miliseconds     Battery Light   Temperature     Humidity        Noise dBA       Barometric pressure     VOC Gas CCS811  eCO2 Gas CCS811 PM 1.0  PM 2.5  PM 10.0
 2019-07-11T09:13:04Z    5       37      137     28.75   57.72   1.5    101.29  1.00    408.00  1.5    1.5    1.5
 2019-07-11T09:13:07Z    3195    37      138     28.78   57.65   1.5    101.30  1.00    408.00  1.5    1.5    1.5
 2019-07-11T09:13:08Z    694     37      136     28.77   57.62   1.5    101.29  1.00    408.00  1.5    1.5    1.5
 </code></pre></div>
-<p>If you don't need to output the <code>miliseconds</code> column (the time since last reading) or the <code>timestamp</code>, you can do so by:</p>
+<p>If you don't need to output the <code>miliseconds</code> column (the time since last reading):</p>
 <div class="highlight"><pre><span></span><code>SCK &gt; monitor -noms light
 Time    Light
 2019-07-10T17:58:58Z    136
@@ -1491,6 +1685,7 @@ Time    Light
 2019-07-10T17:58:59Z    136
 ...
 </code></pre></div>
+<p>Or the <code>timestamp</code>:</p>
 <div class="highlight"><pre><span></span><code>SCK &gt; monitor -notime light
 Miliseconds     Light
 6       137
@@ -1498,6 +1693,16 @@ Miliseconds     Light
 98      137
 99      137
 108     137
+...
+</code></pre></div>
+<p>Or both:</p>
+<div class="highlight"><pre><span></span><code>SCK &gt; monitor -noms -notime light
+Light
+136
+136
+137
+137
+136
 ...
 </code></pre></div>
 <div class="admonition warning">
@@ -1515,10 +1720,12 @@ Time    Miliseconds     Noise dBA
 ...
 </code></pre></div>
 </div>
-<p>Something cool to do with the <code>monitor</code>, is to log the sensor output into a file for later analysis. For instance, in your terminal you could do:</p>
+<div class="admonition info">
+<p class="admonition-title">Pipe data into a file</p>
+<p>In a more advanced case, you can <em>pipe</em> the output to a file. For instance, in your terminal (using a mac) you could do:</p>
 <div class="highlight"><pre><span></span><code>&gt; echo &quot;monitor pm light&quot; &gt; /dev/cu.usbmodem1411 &amp;&amp; screen -L /dev/cu.usbmodem1411
 </code></pre></div>
-<p>Then, if we check the contents of the file (normally something like <code>screenlog.X</code>:</p>
+<p>Then, if we check the contents of the file (normally something like <code>screenlog.X</code>):</p>
 <div class="highlight"><pre><span></span><code>monitor light
 Time    Miliseconds     Light
 2019-07-11T09:10:05Z    6       141
@@ -1537,28 +1744,52 @@ Time    Miliseconds     Light
 ...
 </code></pre></div>
 <p>This can be useful in case you want to log data as fast as possible, with little delay between readings (~100ms).</p>
-<h3 id="changing-mqtt-or-ntp-servers">Changing mqtt or ntp servers<a class="headerlink" href="#changing-mqtt-or-ntp-servers" title="Permanent link">&para;</a></h3>
-<p>If you want to send data to your own server, or there is a firewall in your network, you can use these two commands to change them:</p>
+</div>
+<h3 id="changing-mqtt-or-ntp-servers-mqttsrv-ntpsrv">Changing mqtt or ntp servers - <code>mqttsrv</code> / <code>ntpsrv</code><a class="headerlink" href="#changing-mqtt-or-ntp-servers-mqttsrv-ntpsrv" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>mqttsrv:     Configure mqtt server address and port: [-host serverName] [-port portNum]
 ntpsrv:      Configure ntp server address and port: [-host serverName] [-port portNum]
 </code></pre></div>
-<p>Check the <code>mqttsrv</code>:</p>
+<p>If you want to send data to your own server, or there is a firewall in your network, you can use these two commands to change both NTP or MQTT server.</p>
+<p>You can check the MQTT server with <code>mqttsrv</code>:</p>
 <div class="highlight"><pre><span></span><code>SCK &gt; mqttsrv
 Mqtt Host: mqtt.smartcitizen.me
 Mqtt Port: 1883
 </code></pre></div>
-<p>Check the <code>ntpsrv</code>:</p>
+<p>You can check the NTP server with <code>ntpsrv</code>:</p>
 <div class="highlight"><pre><span></span><code>SCK &gt; ntpsrv
 NTP Host: ntp.smartcitizen.me
 NTP Port: 80
 </code></pre></div>
-<p>Change mqttsrv <code>host</code> and <code>port</code>:</p>
+<p>Change <code>mqttsrv</code> <code>host</code> and <code>port</code>:</p>
 <div class="highlight"><pre><span></span><code>SCK &gt; mqttsrv -host mqtt.greatcity.me -port 80
 Mqtt Host: mqtt.greatcity.me
 Mqtt Port: 80
 </code></pre></div>
-<h3 id="accessing-the-flash-memory">Accessing the flash memory<a class="headerlink" href="#accessing-the-flash-memory" title="Permanent link">&para;</a></h3>
+<div class="admonition info">
+<p class="admonition-title">Check the payload first!</p>
+<p>Check how we send data (note it's not a standard JSON):</p>
+<div class="highlight"><pre><span></span><code>{
+    t:ISO8601 Timestamp,
+    &lt;sensor_id&gt;:&lt;sensor_reading&gt;,
+    ...
+}
+</code></pre></div>
+<p>Example:</p>
+<div class="highlight"><pre><span></span><code>{
+    t:2017-03-24T13:35:14Z,
+    29:48.45,
+    13:66,
+    12:28,
+    10:4.45
+}
+</code></pre></div>
+</div>
+<h3 id="accessing-the-flash-memory-flash">Accessing the flash memory - <code>flash</code><a class="headerlink" href="#accessing-the-flash-memory-flash" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>flash:       Shows and manage flash memory state [no-param -&gt; info] [-format (be careful)] [-dump sect-num (0-2040)] [-sector sect-num] [-recover sect-num/all net/sd]
+</code></pre></div>
+<div class="admonition danger">
 <p>This is an advanced feature and helps to explore the data stored in the onboard flash memory for debugging purposes.</p>
+</div>
 <p>Get a complete map of used sectors in the flash memory:</p>
 <div class="highlight"><pre><span></span><code>SCK &gt; flash
 Scanning Flash memory (it can take a while!)
@@ -1587,6 +1818,28 @@ Last group:  2021-07-12T07:34:49Z
 </code></pre></div>
 <p>Recover a sector (send it to the platform or save in sdcard, or both - see <code>help</code> command):</p>
 <div class="highlight"><pre><span></span><code>flash -recover all net
+</code></pre></div>
+<h3 id="change-the-led-brightness-led">Change the LED brightness - <code>led</code><a class="headerlink" href="#change-the-led-brightness-led" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>led:         Changes led brightness: led [percent]
+</code></pre></div>
+<p>Change the <code>led</code> brightness by:</p>
+<div class="highlight"><pre><span></span><code>SCK &gt; led 25
+</code></pre></div>
+<h3 id="sd-card-operations">SD card operations<a class="headerlink" href="#sd-card-operations" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>file:        SD card file operations: [-ls] [-rm filename] [-less filename] [-allcsv]
+</code></pre></div>
+<p>List SD card files:</p>
+<div class="highlight"><pre><span></span><code>SCK &gt; file -ls
+</code></pre></div>
+<p>Remove a file in the SD card:</p>
+<div class="highlight"><pre><span></span><code>SCK &gt; file -rm 2025-01-25.CSV
+</code></pre></div>
+<p>Print the content of one SD card file:</p>
+<div class="highlight"><pre><span></span><code>SCK &gt; file -less 2025-01-25.CSV
+</code></pre></div>
+<p>Print all CSV files (long!):</p>
+<p>List SD card files:</p>
+<div class="highlight"><pre><span></span><code>SCK &gt; file -allcsv
 </code></pre></div>
 <h2 id="advanced-but-cool-example">Advanced (but cool) example!<a class="headerlink" href="#advanced-but-cool-example" title="Permanent link">&para;</a></h2>
 <div class="admonition example">
@@ -1632,8 +1885,8 @@ Enabling Noise FFT
 <div class="highlight"><pre><span></span><code>&gt; python spectrum_example.py
 </code></pre></div>
 <p>We will have two outputs: a <code>csv</code> file with the spectrums in rows, and a png image that looks like this!</p>
-<p><img alt="" src="https://i.imgur.com/KZfFDam.png" /></p>
-<p>You can see that we were playing with a <a href="http://onlinetonegenerator.com/">tone generator</a> to make some high pitch noises at 10kHz and 20kHz. </p>
+<p><img alt="" src="/assets/images/shell-spectrum-noise.png" /></p>
+<p>You can see that we were playing with a <a href="http://onlinetonegenerator.com/">tone generator</a> to make some high pitch noises at 10kHz and 20kHz.</p>
 </div>
 
 
@@ -1802,7 +2055,7 @@ Enabling Noise FFT
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["instant", "navigation.indexes", "navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "content.tooltips"], "search": "../../../assets/javascripts/workers/search.5bf1dace.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["instant", "navigation.indexes", "navigation.instant", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "content.tooltips", "content.action.edit", "content.action.view", "toc.follow", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.5bf1dace.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
       <script src="../../../assets/javascripts/bundle.078830c0.min.js"></script>

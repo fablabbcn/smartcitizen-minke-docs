@@ -1,0 +1,1283 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="MINKE Documentation">
+      
+      
+        <meta name="author" content="Fab Lab Barcelona">
+      
+      
+        <link rel="canonical" href="https://participatory-tech.docs.minke.eu/includes/references/">
+      
+      <link rel="icon" href="../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.5.4">
+    
+    
+      
+        <title>References - MINKE Sensors Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.80dcb947.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+<!-- In case you want to add plausible.io metrics -->
+    <script defer data-domain="participatory-tech.docs.minke.eu" src="https://plausible.io/js/plausible.js"></script>
+
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="MINKE Sensors Documentation" class="md-header__button md-logo" aria-label="MINKE Sensors Documentation" data-md-component="logo">
+      
+  <img src="../../assets/images/MINKE-logo-small.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MINKE Sensors Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              References
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/fablabbcn/smartcitizen-minke-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    smartcitizen-minke-docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        Main
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Guides/" class="md-tabs__link">
+        Guides
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Webinars/" class="md-tabs__link">
+        Webinars
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../About/about/" class="md-tabs__link">
+        About
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="MINKE Sensors Documentation" class="md-nav__button md-logo" aria-label="MINKE Sensors Documentation" data-md-component="logo">
+      
+  <img src="../../assets/images/MINKE-logo-small.png" alt="logo">
+
+    </a>
+    MINKE Sensors Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/fablabbcn/smartcitizen-minke-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    smartcitizen-minke-docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../..">Main</a>
+          
+            <label for="__nav_1">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Main" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Main
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_2" type="checkbox" id="__nav_1_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../Units/">Sensors</a>
+          
+            <label for="__nav_1_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Sensors" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Sensors
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Units/Citizen%20Kit/" class="md-nav__link">
+        Citizen Kit
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Units/Citizen%20Water%20Kit/" class="md-nav__link">
+        Citizen Water Kit
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Units/Citizen%20Water%20Station/" class="md-nav__link">
+        Citizen Water Station
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3" type="checkbox" id="__nav_1_3" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_3">
+          Data
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Data" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Data
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Data/Sensor%20Platform/" class="md-nav__link">
+        Sensor Platform
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Data/Data%20Analysis/" class="md-nav__link">
+        Data Analysis
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../_FAQ/" class="md-nav__link">
+        FAQ
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Troubleshooting/" class="md-nav__link">
+        Troubleshooting
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../Guides/">Guides</a>
+          
+            <label for="__nav_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Guides" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Guides
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Getting started
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Getting started" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Getting started
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Guides/getting%20started/Onboarding%20Sensors/" class="md-nav__link">
+        Onboarding Sensors
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Guides/getting%20started/Downloading%20the%20Data/" class="md-nav__link">
+        Downloading platform data
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Guides/getting%20started/Uploading%20SD%20Card%20Data/" class="md-nav__link">
+        Uploading SD-card data
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Guides/getting%20started/Updating%20the%20Wi-Fi/" class="md-nav__link">
+        Updating the Wi-Fi
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Guides/getting%20started/Using%20the%20Shell/" class="md-nav__link">
+        Using the Shell
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Guides/getting%20started/Getting%20firmware%20information/" class="md-nav__link">
+        Getting firmware information
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Guides/getting%20started/Debugging%20your%20sensors/" class="md-nav__link">
+        Debugging your sensors
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          Calibration
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Calibration" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Calibration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Guides/calibration/Water%20sensors/" class="md-nav__link">
+        Water sensors
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../Webinars/">Webinars</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Webinars" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Webinars
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          About
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="About" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../About/about/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+
+
+
+
+<!-- For a button to appear so that you can toggle fullscreen -->
+    <button onclick="toggleFullScreen()" title="Fullscreen mode" class="md-content__button md-icon fullscreen_button">
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 0 0-.25.25v2.5a.75.75 0 0 1-1.5 0v-2.5C1 1.784 1.784 1 2.75 1h2.5a.75.75 0 0 1 0 1.5h-2.5zM10 1.75a.75.75 0 0 1 .75-.75h2.5c.966 0 1.75.784 1.75 1.75v2.5a.75.75 0 0 1-1.5 0v-2.5a.25.25 0 0 0-.25-.25h-2.5a.75.75 0 0 1-.75-.75zM1.75 10a.75.75 0 0 1 .75.75v2.5c0 .138.112.25.25.25h2.5a.75.75 0 0 1 0 1.5h-2.5A1.75 1.75 0 0 1 1 13.25v-2.5a.75.75 0 0 1 .75-.75zm12.5 0a.75.75 0 0 1 .75.75v2.5A1.75 1.75 0 0 1 13.25 15h-2.5a.75.75 0 0 1 0-1.5h2.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 .75-.75z"/></svg>
+    </button>
+
+
+
+                  
+
+  <a href="https://github.com/fablabbcn/smartcitizen-minke-docs/edit/master/docs/includes/references.md" title="Edit this page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+  <h1>References</h1>
+
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Szulczyński, Bartosz, and Jacek Gębicki. “Currently Commercially Available Chemical Sensors Employed for Detection of Volatile Organic Compounds in Outdoor and Indoor Air.” Environments 4, no. 1 (March 6, 2017): 21. <a href="https://doi.org/10.3390/environments4010021">https://doi.org/10.3390/environments4010021</a>.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Chojer, H., P.T.B.S. Branco, F.G. Martins, M.C.M. Alvim-Ferraz, and S.I.V. Sousa. “Development of Low-Cost Indoor Air Quality Monitoring Devices: Recent Advancements.” Science of The Total Environment 727 (July 2020): 138385. <a href="https://doi.org/10.1016/j.scitotenv.2020.138385">https://doi.org/10.1016/j.scitotenv.2020.138385</a>.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Branco, P.T.B.S., M.C.M. Alvim-Ferraz, F.G. Martins, and S.I.V. Sousa. “Quantifying Indoor Air Quality Determinants in Urban and Rural Nursery and Primary Schools.” Environmental Research 176 (September 2019): 108534. <a href="https://doi.org/10.1016/j.envres.2019.108534">https://doi.org/10.1016/j.envres.2019.108534</a>.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>Who Guidelines for Indoor Air Quality Selected Pollutants. WHO, 2010. <a href="https://apps.who.int/iris/handle/10665/260127">https://apps.who.int/iris/handle/10665/260127</a>.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>Halima Hadziahmetovic, Rejhana Blazevic, Mirela Alispahic, Sanda Midzic Kurtagic, and Raza Sunulahpasic. “ANALYSIS OF PARAMETERS INFLUENCING THE INDOOR AIR QUALITY.” 33RD DAAAM INTERNATIONAL SYMPOSIUM ON INTELLIGENT MANUFACTURING AND AUTOMATION, n.d. <a href="https://www.daaam.info/Downloads/Pdfs/proceedings/proceedings_2022/working_papers/dpn22391_a_1_Hadziahmetovic.pdf">https://www.daaam.info/Downloads/Pdfs/proceedings/proceedings_2022/working_papers/dpn22391_a_1_Hadziahmetovic.pdf</a>.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p>Kuula, Joel, Timo Mäkelä, Minna Aurela, Kimmo Teinilä, Samu Varjonen, Óscar González, and Hilkka Timonen. “Laboratory Evaluation of Particle-Size Selectivity of Optical Low-Cost Particulate Matter Sensors.” Atmospheric Measurement Techniques 13, no. 5 (May 15, 2020): 2413–23. <a href="https://doi.org/10.5194/amt-13-2413-2020">https://doi.org/10.5194/amt-13-2413-2020</a>.&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p>Alfano, Brigida, Luigi Barretta, Antonio Del Giudice, Saverio De Vito, Girolamo Di Francia, Elena Esposito, Fabrizio Formisano, Ettore Massera, Maria Lucia Miglietta, and Tiziana Polichetti. “A Review of Low-Cost Particulate Matter Sensors from the Developers’ Perspectives.” Sensors 20, no. 23 (November 29, 2020): 6819. <a href="https://doi.org/10.3390/s20236819">https://doi.org/10.3390/s20236819</a>.&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:8">
+<p>TDK Smart Environ Product Page (Accessed January 2023) <a href="https://invensense.tdk.com/smartenviro/">https://invensense.tdk.com/smartenviro/</a>&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+<li id="fn:9">
+<p>Hall, E., S. Kaushik, R. Vanderpool, R. Duvall, M. Beaver, R. Long, AND P. Solomon. Integrating Sensor Monitoring Technology into the Current Air Pollution Regulatory Support Paradigm: Practical Considerations. American Journal of Environmental Engineering. Scientific &amp; Academic Publishing, Rosemead, CA, 4(6):147-154, (2014).&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</li>
+<li id="fn:10">
+<p>South Coast AQMD AQ-SPEC (Accessed january 2023) <a href="http://www.aqmd.gov/aq-spec/evaluations">http://www.aqmd.gov/aq-spec/evaluations</a>&#160;<a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 10 in the text">&#8617;</a></p>
+</li>
+<li id="fn:11">
+<p>Airparif Site (Accessed January 2023) <a href="https://airparif.asso.fr/en/node/110">https://airparif.asso.fr/en/node/110</a>&#160;<a class="footnote-backref" href="#fnref:11" title="Jump back to footnote 11 in the text">&#8617;</a></p>
+</li>
+<li id="fn:12">
+<p>Piera Systems Intelligent Particle Sensors (Accessed January 2023): <a href="https://pierasystems.com/intelligent-particle-sensors/">https://pierasystems.com/intelligent-particle-sensors/</a>&#160;<a class="footnote-backref" href="#fnref:12" title="Jump back to footnote 12 in the text">&#8617;</a></p>
+</li>
+<li id="fn:13">
+<p>Sensor specification statement Particulate Matter Sensors (Accessed January 2023) <a href="https://sensirion.com/media/documents/B7AAA101/61653FB8/Sensirion_Particulate_Matter_AppNotes_Specification_Statement.pdf">https://sensirion.com/media/documents/B7AAA101/61653FB8/Sensirion_Particulate_Matter_AppNotes_Specification_Statement.pdf</a>&#160;<a class="footnote-backref" href="#fnref:13" title="Jump back to footnote 13 in the text">&#8617;</a></p>
+</li>
+<li id="fn:14">
+<p>Clements, A., S. Lung, A. Arfire, AND A. Polidori. An Update on Low-Cost Sensors for the Measurement of Atmospheric Composition: Evaluation Activities. An Update on Low-Cost Sensors for the Measurement of Atmospheric Composition. World Meteorological Organization, Geneva, Switzerland, , NA, (2020).&#160;<a class="footnote-backref" href="#fnref:14" title="Jump back to footnote 14 in the text">&#8617;</a></p>
+</li>
+<li id="fn:15">
+<p>Li, Zhisheng, Qingmei Wen, and Ruilin Zhang. “Sources, Health Effects and Control Strategies of Indoor Fine Particulate Matter (PM2.5): A Review.” Science of The Total Environment 586 (May 2017): 610–22. <a href="https://doi.org/10.1016/j.scitotenv.2017.02.029">https://doi.org/10.1016/j.scitotenv.2017.02.029</a>.&#160;<a class="footnote-backref" href="#fnref:15" title="Jump back to footnote 15 in the text">&#8617;</a></p>
+</li>
+<li id="fn:16">
+<p>Park, Jihoon, Seunghon Ham, Miyeon Jang, Jinho Lee, Sunju Kim, Sungkyoon Kim, Kiyoung Lee, et al. “Spatial–Temporal Dispersion of Aerosolized Nanoparticles During the Use of Consumer Spray Products and Estimates of Inhalation Exposure.” Environmental Science &amp; Technology 51, no. 13 (July 5, 2017): 7624–38. <a href="https://doi.org/10.1021/acs.est.7b00211">https://doi.org/10.1021/acs.est.7b00211</a>.&#160;<a class="footnote-backref" href="#fnref:16" title="Jump back to footnote 16 in the text">&#8617;</a></p>
+</li>
+<li id="fn:17">
+<p>Dacunto, Philip J., Kai-Chung Cheng, Viviana Acevedo-Bolton, Ruo-Ting Jiang, Neil E. Klepeis, James L. Repace, Wayne R. Ott, and Lynn M. Hildemann. “Real-Time Particle Monitor Calibration Factors and PM2.5 Emission Factors for Multiple Indoor Sources.” Environmental Science: Processes &amp; Impacts 15, no. 8 (2013): 1511. <a href="https://doi.org/10.1039/c3em00209h">https://doi.org/10.1039/c3em00209h</a>.&#160;<a class="footnote-backref" href="#fnref:17" title="Jump back to footnote 17 in the text">&#8617;</a></p>
+</li>
+<li id="fn:18">
+<p>Taner, Simge, Beyhan Pekey, and Hakan Pekey. “Fine Particulate Matter in the Indoor Air of Barbeque Restaurants: Elemental Compositions, Sources and Health Risks.” Science of The Total Environment 454–455 (June 2013): 79–87. <a href="https://doi.org/10.1016/j.scitotenv.2013.03.018">https://doi.org/10.1016/j.scitotenv.2013.03.018</a>.&#160;<a class="footnote-backref" href="#fnref:18" title="Jump back to footnote 18 in the text">&#8617;</a></p>
+</li>
+<li id="fn:19">
+<p>Di Antonio, Andrea, Olalekan Popoola, Bin Ouyang, John Saffell, and Roderic Jones. “Developing a Relative Humidity Correction for Low-Cost Sensors Measuring Ambient Particulate Matter.” Sensors 18, no. 9 (August 24, 2018): 2790. <a href="https://doi.org/10.3390/s18092790">https://doi.org/10.3390/s18092790</a>.&#160;<a class="footnote-backref" href="#fnref:19" title="Jump back to footnote 19 in the text">&#8617;</a></p>
+</li>
+<li id="fn:20">
+<p>Wang, Yang, Jiayu Li, He Jing, Qiang Zhang, Jingkun Jiang, and Pratim Biswas. “Laboratory Evaluation and Calibration of Three Low-Cost Particle Sensors for Particulate Matter Measurement.” Aerosol Science and Technology 49, no. 11 (November 2, 2015): 1063–77. <a href="https://doi.org/10.1080/02786826.2015.1100710">https://doi.org/10.1080/02786826.2015.1100710</a>.&#160;<a class="footnote-backref" href="#fnref:20" title="Jump back to footnote 20 in the text">&#8617;</a></p>
+</li>
+<li id="fn:21">
+<p>iSCAPE Project Deliverable 7.8 Sensor monitoring experiences and technological innovations (November 2019). (Accessed January 2023) <a href="https://www.iscapeproject.eu/wp-content/uploads/2020/06/iSCAPE_D7.8_Sensor-monitoring-experiences-and-technological-innovations.pdf">https://www.iscapeproject.eu/wp-content/uploads/2020/06/iSCAPE_D7.8_Sensor-monitoring-experiences-and-technological-innovations.pdf</a>&#160;<a class="footnote-backref" href="#fnref:21" title="Jump back to footnote 21 in the text">&#8617;</a></p>
+</li>
+<li id="fn:22">
+<p>Dinh, Trieu-Vuong, In-Young Choi, Youn-Suk Son, and Jo-Chun Kim. “A Review on Non-Dispersive Infrared Gas Sensors: Improvement of Sensor Detection Limit and Interference Correction.” Sensors and Actuators B: Chemical 231 (August 2016): 529–38. <a href="https://doi.org/10.1016/j.snb.2016.03.040">https://doi.org/10.1016/j.snb.2016.03.040</a>.&#160;<a class="footnote-backref" href="#fnref:22" title="Jump back to footnote 22 in the text">&#8617;</a></p>
+</li>
+<li id="fn:23">
+<p>Müller, Michael, Peter Graf, Jonas Meyer, Anastasia Pentina, Dominik Brunner, Fernando Perez-Cruz, Christoph Hüglin, and Lukas Emmenegger. “Integration and Calibration of Non-Dispersive Infrared (NDIR) CO2 Low-Cost Sensors and Their Operation in a Sensor Network Covering Switzerland.” Atmospheric Measurement Techniques 13, no. 7 (July 15, 2020): 3815–34. <a href="https://doi.org/10.5194/amt-13-3815-2020">https://doi.org/10.5194/amt-13-3815-2020</a>.&#160;<a class="footnote-backref" href="#fnref:23" title="Jump back to footnote 23 in the text">&#8617;</a></p>
+</li>
+<li id="fn:24">
+<p>Sensirion SCD30 Field Calibration Application Note (Accessed January 2023) <a href="https://sensirion.com/media/documents/33C09C07/620638B8/Sensirion_SCD30_Field_Calibration.pdf">https://sensirion.com/media/documents/33C09C07/620638B8/Sensirion_SCD30_Field_Calibration.pdf</a>&#160;<a class="footnote-backref" href="#fnref:24" title="Jump back to footnote 24 in the text">&#8617;</a></p>
+</li>
+<li id="fn:25">
+<p>Demanega, Ingrid, Igor Mujan, Brett C. Singer, Aleksandar S. Anđelković, Francesco Babich, and Dusan Licina. “Performance Assessment of Low-Cost Environmental Monitors and Single Sensors under Variable Indoor Air Quality and Thermal Conditions.” Building and Environment 187 (January 2021): 107415. <a href="https://doi.org/10.1016/j.buildenv.2020.107415">https://doi.org/10.1016/j.buildenv.2020.107415</a>.&#160;<a class="footnote-backref" href="#fnref:25" title="Jump back to footnote 25 in the text">&#8617;</a></p>
+</li>
+<li id="fn:26">
+<p>Zheng, Hailin, Vinayak Krishnan, Shalika Walker, Marcel Loomans, and Wim Zeiler. “Laboratory Evaluation of Low-Cost Air Quality Monitors and Single Sensors for Monitoring Typical Indoor Emission Events in Dutch Daycare Centers.” Environment International 166 (August 2022): 107372. <a href="https://doi.org/10.1016/j.envint.2022.107372">https://doi.org/10.1016/j.envint.2022.107372</a>.&#160;<a class="footnote-backref" href="#fnref:26" title="Jump back to footnote 26 in the text">&#8617;</a></p>
+</li>
+<li id="fn:27">
+<p>Tryner, Jessica, John Mehaffy, Daniel Miller-Lionberg, and John Volckens. “Effects of Aerosol Type and Simulated Aging on Performance of Low-Cost PM Sensors.” Journal of Aerosol Science 150 (December 2020): 105654. <a href="https://doi.org/10.1016/j.jaerosci.2020.105654">https://doi.org/10.1016/j.jaerosci.2020.105654</a>.&#160;<a class="footnote-backref" href="#fnref:27" title="Jump back to footnote 27 in the text">&#8617;</a></p>
+</li>
+<li id="fn:28">
+<p>Xu, Wei, Yunfei Cai, Song Gao, Shuang Hou, Yong Yang, Yusen Duan, Qingyan Fu, Fei Chen, and Jie Wu. “New Understanding of Miniaturized VOCs Monitoring Device: PID-Type Sensors Performance Evaluations in Ambient Air.” Sensors and Actuators B: Chemical 330 (March 2021): 129285. <a href="https://doi.org/10.1016/j.snb.2020.129285">https://doi.org/10.1016/j.snb.2020.129285</a>.&#160;<a class="footnote-backref" href="#fnref:28" title="Jump back to footnote 28 in the text">&#8617;</a></p>
+</li>
+<li id="fn:29">
+<p>Vogt, Matthias, Philipp Schneider, Nuria Castell, and Paul Hamer. “Assessment of Low-Cost Particulate Matter Sensor Systems against Optical and Gravimetric Methods in a Field Co-Location in Norway.” Atmosphere 12, no. 8 (July 27, 2021): 961. <a href="https://doi.org/10.3390/atmos12080961">https://doi.org/10.3390/atmos12080961</a>.&#160;<a class="footnote-backref" href="#fnref:29" title="Jump back to footnote 29 in the text">&#8617;</a></p>
+</li>
+<li id="fn:30">
+<p>Tera NextPM product page (Accessed January 2023) <a href="https://tera-sensor.com/markets-products-services/nextpm/">https://tera-sensor.com/markets-products-services/nextpm/</a>.&#160;<a class="footnote-backref" href="#fnref:30" title="Jump back to footnote 30 in the text">&#8617;</a></p>
+</li>
+<li id="fn:31">
+<p>Tera NextPM AQ-SPEC Sensor evaluation (Accessed January 2023) <a href="http://www.aqmd.gov/aq-spec/sensordetail/tera-sensor---nextpm">http://www.aqmd.gov/aq-spec/sensordetail/tera-sensor---nextpm</a>.&#160;<a class="footnote-backref" href="#fnref:31" title="Jump back to footnote 31 in the text">&#8617;</a></p>
+</li>
+<li id="fn:32">
+<p>Alphasense Ltd. Website (Accessed January 2023) <a href="https://alphasense.com/">https://alphasense.com/</a>.&#160;<a class="footnote-backref" href="#fnref:32" title="Jump back to footnote 32 in the text">&#8617;</a></p>
+</li>
+<li id="fn:33">
+<p>SPEC Sensor Website (Accessed January 2023) <a href="https://spec-sensors.com">https://spec-sensors.com</a>.&#160;<a class="footnote-backref" href="#fnref:33" title="Jump back to footnote 33 in the text">&#8617;</a></p>
+</li>
+<li id="fn:34">
+<p>Sensirion SCD41 Product Page (Accessed January 2023) <a href="https://sensirion.com/products/catalog/SCD41/">https://sensirion.com/products/catalog/SCD41/</a>.&#160;<a class="footnote-backref" href="#fnref:34" title="Jump back to footnote 34 in the text">&#8617;</a></p>
+</li>
+<li id="fn:35">
+<p>Peltier, Richard &amp; Castell, Núria &amp; Clements, Andrea &amp; Dye, Tim &amp; Hüglin, Christoph &amp; Kroll, Jesse &amp; Shih-Chun, &amp; Lung, Candice &amp; Ning, Zhi &amp; Parsons, Matthew &amp; Penza, Michele &amp; Reisen, Fabienne &amp; von Schneidemesser, Erika &amp; Arfire, Adrian &amp; Boso, Àlex &amp; Fu, Qingyan &amp; Hagan, David &amp; Henshaw, Geoff &amp; Jayaratne, Rohan &amp; Zellweger, Christoph. “An Update on Low-Cost Sensors for the Measurement of Atmospheric Composition.” Technical, 2021. <a href="https://www.researchgate.net/publication/351130704_An_update_on_low-cost_sensors_for_the_measurement_of_atmospheric_composition">https://www.researchgate.net/publication/351130704_An_update_on_low-cost_sensors_for_the_measurement_of_atmospheric_composition</a>.&#160;<a class="footnote-backref" href="#fnref:35" title="Jump back to footnote 35 in the text">&#8617;</a></p>
+</li>
+<li id="fn:36">
+<p>Ouyang, Bin. “First-Principles Algorithm for Air Quality Electrochemical Gas Sensors.” ACS Sensors 5, no. 9 (September 25, 2020): 2742–46. <a href="https://doi.org/10.1021/acssensors.0c01129">https://doi.org/10.1021/acssensors.0c01129</a>.&#160;<a class="footnote-backref" href="#fnref:36" title="Jump back to footnote 36 in the text">&#8617;</a></p>
+</li>
+<li id="fn:37">
+<p>Popa, Daniel, and Florin Udrea. “Towards Integrated Mid-Infrared Gas Sensors.” Sensors 19, no. 9 (May 4, 2019): 2076. <a href="https://doi.org/10.3390/s19092076">https://doi.org/10.3390/s19092076</a>.&#160;<a class="footnote-backref" href="#fnref:37" title="Jump back to footnote 37 in the text">&#8617;</a></p>
+</li>
+<li id="fn:38">
+<p>Marinov, Marin B., Nina Djermanova, Borislav Ganev, Georgi Nikolov, and Emilija Janchevska. “Performance Evaluation of Low-Cost Carbon Dioxide Sensors.” In 2018 IEEE XXVII International Scientific Conference Electronics - ET, 1–4. Sozopol: IEEE, 2018. <a href="https://doi.org/10.1109/ET.2018.8549621">https://doi.org/10.1109/ET.2018.8549621</a>.&#160;<a class="footnote-backref" href="#fnref:38" title="Jump back to footnote 38 in the text">&#8617;</a></p>
+</li>
+<li id="fn:39">
+<p>Carsen Banister, Justin Berquist, and Talal Toushan. “Evaluation of Low-Cost CO2 Sensors.” National Research Council Canada, March 14, 2019. <a href="https://publications.gc.ca/collections/collection_2021/cnrc-nrc/NR24-35-2019-eng.pdf">https://publications.gc.ca/collections/collection_2021/cnrc-nrc/NR24-35-2019-eng.pdf</a>.&#160;<a class="footnote-backref" href="#fnref:39" title="Jump back to footnote 39 in the text">&#8617;</a></p>
+</li>
+<li id="fn:40">
+<p>Pang, Xiaobing, Haijun Nan, Jinping Zhong, Daiqi Ye, Marvin D. Shaw, and Alastair C. Lewis. “Low-Cost Photoionization Sensors as Detectors in GC × GC Systems Designed for Ambient VOC Measurements.” Science of The Total Environment 664 (May 2019): 771–79. <a href="https://doi.org/10.1016/j.scitotenv.2019.01.348">https://doi.org/10.1016/j.scitotenv.2019.01.348</a>.&#160;<a class="footnote-backref" href="#fnref:40" title="Jump back to footnote 40 in the text">&#8617;</a></p>
+</li>
+<li id="fn:41">
+<p>Spinelle, Laurent, Michel Gerboles, Gertjan Kok, Stefan Persijn, and Tilman Sauerwald. “Review of Portable and Low-Cost Sensors for the Ambient Air Monitoring of Benzene and Other Volatile Organic Compounds.” Sensors 17, no. 7 (June 28, 2017): 1520. <a href="https://doi.org/10.3390/s17071520">https://doi.org/10.3390/s17071520</a>.&#160;<a class="footnote-backref" href="#fnref:41" title="Jump back to footnote 41 in the text">&#8617;</a></p>
+</li>
+<li id="fn:42">
+<p>Directive 2008/50/EC of the European Parliament and the Council of 21 May 2008 on ambient air quality and cleaner air for Europe. Available online: <a href="http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008L0050">http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008L0050</a> (accessed on 7 August 2017)&#160;<a class="footnote-backref" href="#fnref:42" title="Jump back to footnote 42 in the text">&#8617;</a></p>
+</li>
+<li id="fn:43">
+<p>Edwards, Samuel J., Alastair C. Lewis, Stephen J. Andrews, Richard T. Lidster, Jacqueline F. Hamilton, and Christopher N. Rhodes. “A Compact Comprehensive Two-Dimensional Gas Chromatography (GC×GC) Approach for the Analysis of Biogenic VOCs.” Anal. Methods 5, no. 1 (2013): 141–50. <a href="https://doi.org/10.1039/C2AY25710F">https://doi.org/10.1039/C2AY25710F</a>.&#160;<a class="footnote-backref" href="#fnref:43" title="Jump back to footnote 43 in the text">&#8617;</a></p>
+</li>
+<li id="fn:44">
+<p>Zhu, Hongbo, Jinyan She, Menglian Zhou, and Xudong Fan. “Rapid and Sensitive Detection of Formaldehyde Using Portable 2-Dimensional Gas Chromatography Equipped with Photoionization Detectors.” Sensors and Actuators B: Chemical 283 (March 2019): 182–87. <a href="https://doi.org/10.1016/j.snb.2018.11.156">https://doi.org/10.1016/j.snb.2018.11.156</a>.&#160;<a class="footnote-backref" href="#fnref:44" title="Jump back to footnote 44 in the text">&#8617;</a></p>
+</li>
+<li id="fn:45">
+<p>Skog, Kate M., Fulizi Xiong, Hitoshi Kawashima, Evan Doyle, Ricardo Soto, and Drew R. Gentner. “Compact, Automated, Inexpensive, and Field-Deployable Vacuum-Outlet Gas Chromatograph for Trace-Concentration Gas-Phase Organic Compounds.” Analytical Chemistry 91, no. 2 (January 15, 2019): 1318–27. <a href="https://doi.org/10.1021/acs.analchem.8b03095">https://doi.org/10.1021/acs.analchem.8b03095</a>.&#160;<a class="footnote-backref" href="#fnref:45" title="Jump back to footnote 45 in the text">&#8617;</a></p>
+</li>
+<li id="fn:46">
+<p>Lewis, Alastair C., James D. Lee, Peter M. Edwards, Marvin D. Shaw, Mat J. Evans, Sarah J. Moller, Katie R. Smith, et al. “Evaluating the Performance of Low Cost Chemical Sensors for Air Pollution Research.” Faraday Discussions 189 (2016): 85–103. <a href="https://doi.org/10.1039/C5FD00201J">https://doi.org/10.1039/C5FD00201J</a>.&#160;<a class="footnote-backref" href="#fnref:46" title="Jump back to footnote 46 in the text">&#8617;</a></p>
+</li>
+<li id="fn:47">
+<p>Williams, R. “Next Generation Air Monitoring (NGAM) VOC Sensor Evaluation Report,” 2015. <a href="https://cfpub.epa.gov/si/si_public_record_report.cfm?Lab=NERL&amp;dirEntryId=308114">https://cfpub.epa.gov/si/si_public_record_report.cfm?Lab=NERL&amp;dirEntryId=308114</a>.&#160;<a class="footnote-backref" href="#fnref:47" title="Jump back to footnote 47 in the text">&#8617;</a></p>
+</li>
+<li id="fn:48">
+<p>Frausto-Vicencio, Isis, Alondra Moreno, Hugh Goldsmith, Ying-Kuang Hsu, and Francesca M. Hopkins. “Characterizing the Performance of a Compact BTEX GC-PID for Near-Real Time Analysis and Field Deployment.” Sensors 21, no. 6 (March 17, 2021): 2095. <a href="https://doi.org/10.3390/s21062095">https://doi.org/10.3390/s21062095</a>.&#160;<a class="footnote-backref" href="#fnref:48" title="Jump back to footnote 48 in the text">&#8617;</a></p>
+</li>
+<li id="fn:49">
+<p>Bílek, Jiří, Petr Maršolek, Ondřej Bílek, and Pavel Buček. “Field Test of Mini Photoionization Detector-Based Sensors—Monitoring of Volatile Organic Pollutants in Ambient Air.” Environments 9, no. 4 (April 10, 2022): 49. <a href="https://doi.org/10.3390/environments9040049">https://doi.org/10.3390/environments9040049</a>.&#160;<a class="footnote-backref" href="#fnref:49" title="Jump back to footnote 49 in the text">&#8617;</a></p>
+</li>
+<li id="fn:50">
+<p>Schieweck, Alexandra, Erik Uhde, Tunga Salthammer, Lea C. Salthammer, Lidia Morawska, Mandana Mazaheri, and Prashant Kumar. “Smart Homes and the Control of Indoor Air Quality.” Renewable and Sustainable Energy Reviews 94 (October 2018): 705–18. <a href="https://doi.org/10.1016/j.rser.2018.05.057">https://doi.org/10.1016/j.rser.2018.05.057</a>.&#160;<a class="footnote-backref" href="#fnref:50" title="Jump back to footnote 50 in the text">&#8617;</a></p>
+</li>
+<li id="fn:51">
+<p>Bur, C., M. Bastuck, D. Puglisi, A. Schütze, A. Lloyd Spetz, and M. Andersson. “Discrimination and Quantification of Volatile Organic Compounds in the Ppb-Range with Gas Sensitive SiC-Field Effect Transistors.” Procedia Engineering 87 (2014): 604–7. <a href="https://doi.org/10.1016/j.proeng.2014.11.561">https://doi.org/10.1016/j.proeng.2014.11.561</a>.&#160;<a class="footnote-backref" href="#fnref:51" title="Jump back to footnote 51 in the text">&#8617;</a></p>
+</li>
+<li id="fn:52">
+<p>Collier-Oxandale, Ashley M., Jacob Thorson, Hannah Halliday, Jana Milford, and Michael Hannigan. “Understanding the Ability of Low-Cost MOx Sensors to Quantify Ambient VOCs.” Atmospheric Measurement Techniques 12, no. 3 (March 5, 2019): 1441–60. <a href="https://doi.org/10.5194/amt-12-1441-2019">https://doi.org/10.5194/amt-12-1441-2019</a>.&#160;<a class="footnote-backref" href="#fnref:52" title="Jump back to footnote 52 in the text">&#8617;</a></p>
+</li>
+<li id="fn:53">
+<p>Herberger, S., M. Herold, H. Ulmer, A. Burdack-Freitag, and F. Mayer. “Detection of Human Effluents by a MOS Gas Sensor in Correlation to VOC Quantification by GC/MS.” Building and Environment 45, no. 11 (November 2010): 2430–39. <a href="https://doi.org/10.1016/j.buildenv.2010.05.005">https://doi.org/10.1016/j.buildenv.2010.05.005</a>.&#160;<a class="footnote-backref" href="#fnref:53" title="Jump back to footnote 53 in the text">&#8617;</a></p>
+</li>
+<li id="fn:54">
+<p>Leidinger, M., T. Sauerwald, T. Conrad, W. Reimringer, G. Ventura, and A. Schütze. “Selective Detection of Hazardous Indoor VOCs Using Metal Oxide Gas Sensors.” Procedia Engineering 87 (2014): 1449–52. <a href="https://doi.org/10.1016/j.proeng.2014.11.722">https://doi.org/10.1016/j.proeng.2014.11.722</a>.&#160;<a class="footnote-backref" href="#fnref:54" title="Jump back to footnote 54 in the text">&#8617;</a></p>
+</li>
+<li id="fn:55">
+<p>Andersson, M., M. Bastuck, J. Huotari, A. Lloyd Spetz, J. Lappalainen, A. Schütze, and D. Puglisi. “SiC-FET Sensors for Selective and Quantitative Detection of VOCs Down to Ppb Level.” Procedia Engineering 168 (2016): 216–20. <a href="https://doi.org/10.1016/j.proeng.2016.11.165">https://doi.org/10.1016/j.proeng.2016.11.165</a>.&#160;<a class="footnote-backref" href="#fnref:55" title="Jump back to footnote 55 in the text">&#8617;</a></p>
+</li>
+<li id="fn:56">
+<p>Schütze, Andreas, Tobias Baur, Martin Leidinger, Wolfhard Reimringer, Ralf Jung, Thorsten Conrad, and Tilman Sauerwald. “Highly Sensitive and Selective VOC Sensor Systems Based on Semiconductor Gas Sensors: How To?” Environments 4, no. 1 (March 1, 2017): 20. <a href="https://doi.org/10.3390/environments4010020">https://doi.org/10.3390/environments4010020</a>.&#160;<a class="footnote-backref" href="#fnref:56" title="Jump back to footnote 56 in the text">&#8617;</a></p>
+</li>
+<li id="fn:57">
+<p>Collier-Oxandale, Ashley, Brandon Feenstra, Vasileios Papapostolou, Hang Zhang, Michelle Kuang, Berj Der Boghossian, and Andrea Polidori. “Field and Laboratory Performance Evaluations of 28 Gas-Phase Air Quality Sensors by the AQ-SPEC Program.” Atmospheric Environment 220 (January 2020): 117092. <a href="https://doi.org/10.1016/j.atmosenv.2019.117092">https://doi.org/10.1016/j.atmosenv.2019.117092</a>.&#160;<a class="footnote-backref" href="#fnref:57" title="Jump back to footnote 57 in the text">&#8617;</a></p>
+</li>
+<li id="fn:58">
+<p>Kirešová, Simona, Milan Guzan, and Branislav Sobota. “Using Low-Cost Sensors for Measuring and Monitoring Particulate Matter with a Focus on Fine and Ultrafine Particles.” Atmosphere 14, no. 2 (February 6, 2023): 324. <a href="https://doi.org/10.3390/atmos14020324">https://doi.org/10.3390/atmos14020324</a>.&#160;<a class="footnote-backref" href="#fnref:58" title="Jump back to footnote 58 in the text">&#8617;</a></p>
+</li>
+<li id="fn:59">
+<p>Blanco-Novoa, Oscar, Tiago Fernández-Caramés, Paula Fraga-Lamas, and Luis Castedo. “A Cost-Effective IoT System for Monitoring Indoor Radon Gas Concentration.” Sensors 18, no. 7 (July 8, 2018): 2198. <a href="https://doi.org/10.3390/s18072198">https://doi.org/10.3390/s18072198</a>.&#160;<a class="footnote-backref" href="#fnref:59" title="Jump back to footnote 59 in the text">&#8617;</a></p>
+</li>
+<li id="fn:60">
+<p>Zeeb, Hajo, Ferid Shannoun, and World Health Organization. “WHO Handbook on Indoor Radon: A Public Health Perspective,” 2009. <a href="https://apps.who.int/iris/handle/10665/44149">https://apps.who.int/iris/handle/10665/44149</a>.&#160;<a class="footnote-backref" href="#fnref:60" title="Jump back to footnote 60 in the text">&#8617;</a></p>
+</li>
+<li id="fn:61">
+<p>Camprodon, Guillem, Óscar González, Víctor Barberán, Máximo Pérez, Viktor Smári, Miguel Ángel de Heras, and Alejandro Bizzotto. “Smart Citizen Kit and Station: An Open Environmental Monitoring System for Citizen Participation and Scientific Experimentation.” HardwareX 6 (October 2019): e00070. <a href="https://doi.org/10.1016/j.ohx.2019.e00070">https://doi.org/10.1016/j.ohx.2019.e00070</a>.&#160;<a class="footnote-backref" href="#fnref:61" title="Jump back to footnote 61 in the text">&#8617;</a></p>
+</li>
+<li id="fn:62">
+<p>Smart Citizen Documentation <a href="https://docs.smartcitizen.me">https://docs.smartcitizen.me</a> (Accessed January 2023)&#160;<a class="footnote-backref" href="#fnref:62" title="Jump back to footnote 62 in the text">&#8617;</a></p>
+</li>
+<li id="fn:63">
+<p>Barros, Paulo, António Curado, and Sérgio Ivan Lopes. “Internet of Things (IoT) Technologies for Managing Indoor Radon Risk Exposure: Applications, Opportunities, and Future Challenges.” Applied Sciences 11, no. 22 (November 22, 2021): 11064. <a href="https://doi.org/10.3390/app112211064">https://doi.org/10.3390/app112211064</a>.&#160;<a class="footnote-backref" href="#fnref:63" title="Jump back to footnote 63 in the text">&#8617;</a></p>
+</li>
+<li id="fn:64">
+<p>Blanco-Novoa, Oscar, Tiago Fernández-Caramés, Paula Fraga-Lamas, and Luis Castedo. “A Cost-Effective IoT System for Monitoring Indoor Radon Gas Concentration.” Sensors 18, no. 7 (July 8, 2018): 2198. <a href="https://doi.org/10.3390/s18072198">https://doi.org/10.3390/s18072198</a>.&#160;<a class="footnote-backref" href="#fnref:64" title="Jump back to footnote 64 in the text">&#8617;</a></p>
+</li>
+<li id="fn:65">
+<p>Tunyagi, Arthur, Tiberius Dicu, Alexandra Cucoș, Betty Denissa Burghele, Gabriel Dobrei, Alexandru Lupulescu, Mircea Moldovan, Dan Constantin Niţă, Botond Papp, Kinga Szacsvai, A Țenter, Mihail Simion Beldean-Galea, Manuel Antón, Ș. Grecu, L. Cioloca, Rene Milos, Marius Lucian Botoș, Cosmin Gruia Chiorean, Tiberiu Catalina, Marian-Andrei Istrate and Carlos Sainz. “AN INNOVATIVE SYSTEM FOR MONITORING RADON AND INDOOR AIR QUALITY.” (2020).&#160;<a class="footnote-backref" href="#fnref:65" title="Jump back to footnote 65 in the text">&#8617;</a></p>
+</li>
+<li id="fn:66">
+<p>Sá, Juliana P., Pedro T. B. S. Branco, Maria C. M. Alvim-Ferraz, Fernando G. Martins, and Sofia I. V. Sousa. “Radon in Indoor Air: Towards Continuous Monitoring.” Sustainability 14, no. 3 (January 28, 2022): 1529. <a href="https://doi.org/10.3390/su14031529">https://doi.org/10.3390/su14031529</a>.&#160;<a class="footnote-backref" href="#fnref:66" title="Jump back to footnote 66 in the text">&#8617;</a></p>
+</li>
+<li id="fn:67">
+<p>Airthings Website (Accessed January 2023) <a href="https://www.airthings.com/">https://www.airthings.com/</a>&#160;<a class="footnote-backref" href="#fnref:67" title="Jump back to footnote 67 in the text">&#8617;</a></p>
+</li>
+<li id="fn:68">
+<p>FTLab Radon Monitor Website (Accessed January 2023) <a href="http://radonftlab.com/radon-sensor-product/radon-sensor/rd200m/">http://radonftlab.com/radon-sensor-product/radon-sensor/rd200m/</a>&#160;<a class="footnote-backref" href="#fnref:68" title="Jump back to footnote 68 in the text">&#8617;</a></p>
+</li>
+<li id="fn:69">
+<p>Tesla TSRS Product Page (Accessed January 2023): <a href="https://www.tesla.cz/en/radon-concentration-measurement/">https://www.tesla.cz/en/radon-concentration-measurement/</a>&#160;<a class="footnote-backref" href="#fnref:69" title="Jump back to footnote 69 in the text">&#8617;</a></p>
+</li>
+<li id="fn:70">
+<p>Tesla TSRS Datasheet (Accessed January 2023): <a href="https://www.tesla.cz/wp-content/uploads/2022/05/052-410-049-TSRS_probe_manual_en_v1.pdf">https://www.tesla.cz/wp-content/uploads/2022/05/052-410-049-TSRS_probe_manual_en_v1.pdf</a>&#160;<a class="footnote-backref" href="#fnref:70" title="Jump back to footnote 70 in the text">&#8617;</a></p>
+</li>
+<li id="fn:71">
+<p>Studnička, Filip, Jan Štěpán, and Jan Šlégr. “Low-Cost Radon Detector with Low-Voltage Air-Ionization Chamber.” Sensors 19, no. 17 (August 28, 2019): 3721. <a href="https://doi.org/10.3390/s19173721">https://doi.org/10.3390/s19173721</a>.&#160;<a class="footnote-backref" href="#fnref:71" title="Jump back to footnote 71 in the text">&#8617;</a></p>
+</li>
+<li id="fn:72">
+<p>Alvarellos, Alberto, Marcos Gestal, Julián Dorado, and Juan Ramón Rabuñal. “Developing a Secure Low-Cost Radon Monitoring System.” Sensors 20, no. 3 (January 29, 2020): 752. <a href="https://doi.org/10.3390/s20030752">https://doi.org/10.3390/s20030752</a>.&#160;<a class="footnote-backref" href="#fnref:72" title="Jump back to footnote 72 in the text">&#8617;</a></p>
+</li>
+<li id="fn:73">
+<p>Alvarellos, Alberto, Andrea Lopez Chao, Juan Ramón Rabuñal, María D. García-Vidaurrázaga, and Alejandro Pazos. “Development of an Automatic Low-Cost Air Quality Control System: A Radon Application.” Applied Sciences 11, no. 5 (March 1, 2021): 2169. <a href="https://doi.org/10.3390/app11052169">https://doi.org/10.3390/app11052169</a>.&#160;<a class="footnote-backref" href="#fnref:73" title="Jump back to footnote 73 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+                
+
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+
+
+<!-- Application footer -->
+<footer class="md-footer">
+
+  <!-- Link to previous and/or next page -->
+  
+
+  <!-- Further information -->
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+
+      <!-- Copyright and theme information -->
+      <div class="md-footer-copyright">
+        <!-- -->
+            <!-- <div class="md-footer-copyright__highlight">GNU Free Documenstation License (Version 1.3, 3 November 2008)</div> -->
+        <!-- -->
+          <div class="md-footer-iscape">
+		        <img style="margin-right: 20px;" class="logo" alt="Smart Citizen as part of the MINKE project has received funding from the European Community’s H2020 Programme under Grant Agreement No. 101008724." src="/assets/images/eu-flag.png">
+            <p class="md-footer-copyright__highlight">Smart Citizen as part of the MINKE project has received funding from the European Community’s H2020 Programme under Grant Agreement No. 101008724.</p>
+          </div>
+            <div class="md-footer-copyright__highlight"><p>Except where otherwise noted, content on this site is licensed under a <a rel="license" href="https://www.gnu.org/licenses/fdl-1.3-standalone.html">GNU Free Documenstation License (Version 1.3, 3 November 2008)</a>.</p></div>
+            <p><a rel="license" href="http://smartcitizen.me">Smart Citizen</a> is a project by <a rel="license" href="http://fablabbcn.org">Fab Lab Barcelona</a> at the <a rel="license" href="http://iaac.net">Institute For Advanced Architecture Of Catalonia</a>.</p>
+      </div>
+
+      <!-- Social links -->
+      
+        <div class="md-social">
+  
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/MinkeProject" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/company/minke-project/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/channel/UCW4nzxDEUk7NRpKMAghoSDg" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://www.slideshare.net/MinkeProject" target="_blank" rel="noopener" title="www.slideshare.net" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M187.7 153.7c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7s61.7-26 61.7-57.7c0-32-27.7-57.7-61.7-57.7zm143.4 0c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7 34.3 0 61.7-26 61.7-57.7.1-32-27.4-57.7-61.7-57.7zm156.6 90-6 4.3V49.7c0-27.4-20.6-49.7-46-49.7H76.6c-25.4 0-46 22.3-46 49.7V248c-2-1.4-4.3-2.9-6.3-4.3-15.1-10.6-25.1 4-16 17.7 18.3 22.6 53.1 50.3 106.3 72C58.3 525.1 252 555.7 248.9 457.5c0-.7.3-56.6.3-96.6 5.1 1.1 9.4 2.3 13.7 3.1 0 39.7.3 92.8.3 93.5-3.1 98.3 190.6 67.7 134.3-124 53.1-21.7 88-49.4 106.3-72 9.1-13.8-.9-28.3-16.1-17.8zm-30.5 19.2c-68.9 37.4-128.3 31.1-160.6 29.7-23.7-.9-32.6 9.1-33.7 24.9-10.3-7.7-18.6-15.5-20.3-17.1-5.1-5.4-13.7-8-27.1-7.7-31.7 1.1-89.7 7.4-157.4-28V72.3c0-34.9 8.9-45.7 40.6-45.7h317.7c30.3 0 40.9 12.9 40.9 45.7v190.6z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["instant", "navigation.indexes", "navigation.instant", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "content.tooltips", "content.action.edit", "content.action.view", "toc.follow", "navigation.footer"], "search": "../../assets/javascripts/workers/search.5bf1dace.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.078830c0.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+        <script src="https://buttons.github.io/buttons.js"></script>
+      
+        <script src="../../javascripts/extra.js"></script>
+      
+    
+  </body>
+</html>
